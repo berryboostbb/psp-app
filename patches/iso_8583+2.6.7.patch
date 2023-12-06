@@ -1,0 +1,23 @@
+diff --git a/node_modules/iso_8583/lib/8583.js b/node_modules/iso_8583/lib/8583.js
+index 402f473..a1ea53f 100644
+--- a/node_modules/iso_8583/lib/8583.js
++++ b/node_modules/iso_8583/lib/8583.js
+@@ -9,6 +9,7 @@ const requiredEcho = require('./requiredEcho');
+ const SpT = require('./specialFields/tools');
+ const maskPan = require('./maskPan');
+ const toSafeLog = require('./safeToLog');
++var Buffer = require("buffer/").Buffer;
+ 
+ /**
+  * Set of methods for unpacking TCP message encoded in ISO 8583 format. Members of Main Class
+diff --git a/node_modules/iso_8583/lib/unpack/unpack_0_127.js b/node_modules/iso_8583/lib/unpack/unpack_0_127.js
+index 562780e..dcf66f0 100644
+--- a/node_modules/iso_8583/lib/unpack/unpack_0_127.js
++++ b/node_modules/iso_8583/lib/unpack/unpack_0_127.js
+@@ -1,5 +1,6 @@
+ const T = require('../tools');
+ const formats = require('../formats');
++var Buffer = require("buffer/").Buffer;
+ 
+ /**
+  * Unpack fields 0-127 from an ISO 8583 encoded string into a JSON

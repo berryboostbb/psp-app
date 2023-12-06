@@ -1,0 +1,838 @@
+{
+  "Email Address": { "ENG": "Email Address", "FR": "Adresse e-mail" },
+  "Password": { "ENG": "Password", "FR": "Mot de passe" },
+  "Remember Me": { "ENG": "Remember Me", "FR": "Souviens-toi de moi" },
+  "Forgot Password": {
+    "ENG": "Forgot Password?",
+    "FR": "Mot de passe oublié?"
+  },
+  "Login": { "ENG": "Login", "FR": "Connexion" },
+  "Manager Password Update": {
+    "ENG": "Manager Password Update",
+    "FR": "Mise à jour du mot de passe du gestionnaire"
+  },
+  "Invalid Manager Password": {
+    "ENG": "Invalid Manager Password",
+    "FR": "Mot de passe administrateur invalide"
+  },
+  "Enter Current Password": {
+    "ENG": "Enter Current Password",
+    "FR": "Entrer le mot de passe actuel"
+  },
+  "Create New Password": {
+    "ENG": "Create New Password",
+    "FR": "Créer un nouveau mot de passe"
+  },
+  "Re-enter New Password": {
+    "ENG": "Re-enter New Password",
+    "FR": "Ré-entrez le nouveau mot de passe"
+  },
+  "Merchant Passcode": { "ENG": "Merchant Passcode", "FR": "Suivante" },
+  "Choose Your Passcode": {
+    "ENG": "Choose Your Passcode",
+    "FR": "Choisissez votre mot de passe"
+  },
+  "Choose Passcode": {
+    "ENG": "Choose Passcode",
+    "FR": "Choisissez le mot de passe"
+  },
+  "Confirm Passcode": {
+    "ENG": "Confirm Passcode",
+    "FR": "Confirmer le mot de passe"
+  },
+  "Next": { "ENG": "Next", "FR": "Suivante" },
+  "Create Manager Passcode": {
+    "ENG": "Create Manager Passcode",
+    "FR": "Créer un mot de passe de gestionnaire"
+  },
+  "Create Your Passcode": {
+    "ENG": "Create Your Passcode",
+    "FR": "Créez votre mot de passe"
+  },
+  "Re-Enter Your Passcode": {
+    "ENG": "Re-Enter Your Passcode",
+    "FR": "Entrez à nouveau votre mot de passe"
+  },
+  "Manager Passcode": {
+    "ENG": "Manager Passcode",
+    "FR": "Mot de passe du gestionnaire"
+  },
+  "Enter Your Passcode": {
+    "ENG": "Enter Your Passcode",
+    "FR": "Entre ton mot de passe"
+  },
+  "Confirm passcode must be same": {
+    "ENG": "Confirm passcode must be same",
+    "FR": "Confirmer que le mot de passe doit être le même"
+  },
+  "Transaction Menu": { "ENG": "Transaction Menu", "FR": "Menu Transactions" },
+  "Reports": { "ENG": "Reports", "FR": "Rapports" },
+  "Settings": { "ENG": "Settings", "FR": "Paramètres" },
+  "Admin Settings": {
+    "ENG": "Admin Settings",
+    "FR": "Paramètres d'administration"
+  },
+  "Welcome / Bonjour!": {
+    "ENG": "Welcome / Bonjour!",
+    "FR": "Bienvenue / Bonjour!"
+  },
+  "Tap anywhere to continue": {
+    "ENG": "Tap anywhere to continue",
+    "FR": "Appuyez n'importe où pour continuer"
+  },
+  "Sale": { "ENG": "Sale", "FR": "Vente" },
+  "Refund": { "ENG": "Refund", "FR": "Remboursement" },
+  "Reprint Receipt": { "ENG": "Reprint Receipt", "FR": "Réimprimer le reçu" },
+  "Admin Menu": { "ENG": "Admin Menu", "FR": "Menu Admin" },
+  "Enter Clerk ID": { "ENG": "Enter Clerk ID", "FR": "Entrer l'ID du commis" },
+  "Enter Invoice Number": {
+    "ENG": "Enter Invoice Number",
+    "FR": "Entrez le numéro de facture"
+  },
+  "Enter Sale Amount": {
+    "ENG": "Enter Sale Amount",
+    "FR": "Entrez le montant de la vente"
+  },
+
+  "Enter Tip Amount": {
+    "ENG": "Enter Tip Amount",
+    "FR": "Entrez le montant du pourboire"
+  },
+  "Sale Subtotal": { "ENG": "Sale Subtotal", "FR": "Sous-total de la vente" },
+  "Other Amount": { "ENG": "Other Amount", "FR": "Autre montant" },
+  "Subtotal": { "ENG": "Subtotal", "FR": "Total" },
+  "Reward Points": { "ENG": "Reward Points", "FR": "Points de récompense" },
+  "Debit/Credit": { "ENG": "Debit/Credit", "FR": "Débit/Crédit" },
+  "Would you like to collect Plastk Reward Points?": {
+    "ENG": "Would you like to collect Plastk Reward Points?",
+    "FR": "Souhaitez-vous collecter des points de récompense Plastk?"
+  },
+  "No Tip": { "ENG": "No Tip", "FR": "Aucun conseil" },
+  "Scan QR Code": { "ENG": "Scan QR Code", "FR": "Scanner le code QR" },
+  "Skip": { "ENG": "Skip", "FR": "Sauter" },
+  "Use PIN": { "ENG": "Use PIN", "FR": "Utiliser le NIP" },
+  "Confirm": { "ENG": "Confirm", "FR": "Confirmer" },
+  "Cancel": { "ENG": "Cancel", "FR": "Annuler" },
+  "Continue": { "ENG": "Continue", "FR": "Continuez" },
+  "Summary": { "ENG": "Summary", "FR": "Résumé" },
+  "Tip Amount": { "ENG": "Tip Amount", "FR": "Montant du pourboire" },
+  "Tap or swipe above": {
+    "ENG": "Tap or swipe above",
+    "FR": "Appuyez ou balayez ci-dessus"
+  },
+  "Insert Chip Cards Below": {
+    "ENG": "Insert Chip Cards Below",
+    "FR": "Insérez les cartes à puce ci-dessous"
+  },
+  "Tap,Insert or Swipe": {
+    "ENG": "Tap, Insert or Swipe",
+    "FR": "Appuyez, insérez ou balayez"
+  },
+  "Tap not accepted. Please insert your card or try another card.": {
+    "ENG": "Tap not accepted. Please insert your card or try another card.",
+    "FR": "Appuyez sur non accepté. Veuillez insérer votre carte ou essayer une autre carte."
+  },
+  "Pending Surcharge": {
+    "ENG": "Pending Surcharge",
+    "FR": "Supplément en attente"
+  },
+  "Pending": { "ENG": "Pending", "FR": "En attente" },
+  "This sale includes an additional surcharge fee": {
+    "ENG": "This sale includes an additional surcharge fee",
+    "FR": "Cette vente comprend des frais supplémentaires"
+  },
+  "Surcharge": { "ENG": "Surcharge", "FR": "Surtaxe" },
+  "Total": { "ENG": "Total", "FR": "Le total" },
+  "Decline": { "ENG": "Decline", "FR": "Déclin" },
+  "Accept": { "ENG": "Accept", "FR": "Accepter" },
+  "Processing": { "ENG": "Processing", "FR": "Traitement" },
+  "Please Wait....": {
+    "ENG": "Please Wait....",
+    "FR": "S'il vous plaît, attendez..."
+  },
+  "Approved": { "ENG": "Approved", "FR": "Approuvée" },
+  "Thank You!": { "ENG": "Thank You!", "FR": "Je vous remercie!" },
+  "Please Hand Device to Clerk": {
+    "ENG": "Please Hand Device to Clerk",
+    "FR": "Veuillez remettre l'appareil au commis"
+  },
+  "Sale Total": { "ENG": "Sale Total", "FR": "Total de la vente" },
+  "Select Account": { "ENG": "Select Account", "FR": "Sélectionnez un compte" },
+  "Chequing": { "ENG": "Chequing", "FR": "Chèque" },
+  "Saving": { "ENG": "Saving", "FR": "Économie" },
+  "Enter Your PIN": { "ENG": "Enter Your PIN", "FR": "Entrez votre NIP" },
+  "Do Not Remove Card": {
+    "ENG": "Do Not Remove Card",
+    "FR": "Ne pas retirer la carte"
+  },
+  "Please Remove Card": {
+    "ENG": "Please Remove Card",
+    "FR": "Veuillez retirer la carte"
+  },
+  "Print Receipt": { "ENG": "Print Receipt", "FR": "Imprimer le reçu" },
+  "Print Customer Receipt": {
+    "ENG": "Print Customer Receipt",
+    "FR": "Imprimer le reçu du client"
+  },
+  "No Receipt": { "ENG": "No Receipt", "FR": "Pas de facture" },
+  "Printing...": { "ENG": "Printing...", "FR": "Impression..." },
+  "Please Provide Customer Receipt": {
+    "ENG": "Please Provide Customer Receipt",
+    "FR": "Veuillez fournir un reçu client"
+  },
+  "Invalid Clerk / Server ID": {
+    "ENG": "Invalid Clerk / Server ID",
+    "FR": "ID de commis/serveur invalide"
+  },
+  "Invalid Invoice Number": {
+    "ENG": "Invalid Invoice Number",
+    "FR": "Numéro de facture invalide"
+  },
+  "Enter Refund Amount": {
+    "ENG": "Enter Refund Amount",
+    "FR": "Entrez le montant du remboursement"
+  },
+  "Refund Amount Greater Than Original": {
+    "ENG": "Refund Amount Greater Than Original",
+    "FR": "Montant du remboursement supérieur à l'original"
+  },
+  "Refund Total": { "ENG": "Refund Total", "FR": "Remboursement total" },
+  "Your session has expired due to inactivity on the device.": {
+    "ENG": "Your session has expired due to inactivity on the device.",
+    "FR": "Votre session a expiré en raison d'une inactivité sur l'appareil."
+  },
+  "Card chip error. Please remove your card and try again.": {
+    "ENG": "Card chip error. Please remove your card and try again.",
+    "FR": "Erreur de puce de carte. Veuillez retirer votre carte et réessayer."
+  },
+  "Card declined. Please remove your card and try again.": {
+    "ENG": "Card declined. Please remove your card and try again.",
+    "FR": "Carte refusée. Veuillez retirer votre carte et réessayer."
+  },
+  "Open Batch Terminal Totals": {
+    "ENG": "Open Batch Terminal Totals",
+    "FR": "Totaux du terminal de lot ouvert"
+  },
+  "Tip Totals": { "ENG": "Tip Totals", "FR": "Totaux des pourboires" },
+  "Transaction Details": {
+    "ENG": "Transaction Details",
+    "FR": "détails de la transaction"
+  },
+  "Batch Close": { "ENG": "Batch Close", "FR": "Fermeture de lot" },
+  "Clerk/Server": { "ENG": "Clerk/Server", "FR": "Commis/serveur" },
+  "Configuration": { "ENG": "Configuration", "FR": "Configuration" },
+  "Decline Transactions": {
+    "ENG": "Decline Transactions",
+    "FR": "Refuser les transactions"
+  },
+  "EMV Parameters": { "ENG": "EMV Parameters", "FR": "Paramètres EMV" },
+  "Open Pre-Auths-Future": {
+    "ENG": "Open Pre-Auths-Future",
+    "FR": "Ouvrir Pré-autorisations-Future"
+  },
+  "Merchant ID:": { "ENG": "Mechant ID:", "FR": "ID marchand:" },
+  "Terminal ID:": { "ENG": "Terminal ID: ", "FR": "Identifiant du terminal:" },
+  "Batch Number:": { "ENG": "Batch Number:", "FR": "Numéro de lot:" },
+  "Start Date:": { "ENG": "Start Date:", "FR": "Date de début:" },
+  "End Date:": { "ENG": "End Date:", "FR": "Date de fin:" },
+  "Current Date:": { "ENG": "Current Date:", "FR": "Date actuelle:" },
+  "Time:": { "ENG": "Time:", "FR": "Temps:" },
+  "Date:": { "ENG": "Date:", "FR": "Date:" },
+  "Interac Totals": { "ENG": "Interac Totals", "FR": "Totaux Interac" },
+  "Sales/Compl": { "ENG": "Sales/Compl", "FR": "Ventes/Compl" },
+  "Voids": { "ENG": "Voids", "FR": "Vides" },
+  "Sub Total": { "ENG": "Sub Total", "FR": "Sous-total" },
+  "Cashback": { "ENG": "Cashback", "FR": "Remise en argent" },
+  "Count": { "ENG": "Count", "FR": "Compter" },
+  "Amount": { "ENG": "Amount", "FR": "Montant" },
+  "Cashback Config": {
+    "ENG": "Cashback Config",
+    "FR": "Configuration du remboursement"
+  },
+  "Terminal Language": { "ENG": "Terminal Language", "FR": "Langue terminale" },
+  "Language & Terminal": {
+    "ENG": "Language & Terminal",
+    "FR": "Langue & Terminaux"
+  },
+  "Card Type": { "ENG": "Card Type", "FR": "Type de carte" },
+  "Interac": { "ENG": "Interac", "FR": "Interac" },
+  "Visa": { "ENG": "Visa", "FR": "Visa" },
+  "MasterCard": { "ENG": "MasterCard", "FR": "MasterCard" },
+  "Visa Totals": { "ENG": "Visa Totals", "FR": "Totaux des visas" },
+  "MasterCard Totals": {
+    "ENG": "MasterCard Totals",
+    "FR": "Totaux MasterCard"
+  },
+  "Terminal Totals": { "ENG": "Terminal Totals", "FR": "Totaux terminaux" },
+  "Close Batch": { "ENG": "Close Batch", "FR": "Fermer le lot" },
+  "Print Transaction Detail Report?": {
+    "ENG": "Print Transaction Detail Report?",
+    "FR": "Imprimer le rapport détaillé des transactions?"
+  },
+  "*Please note that during the": {
+    "ENG": "*Please note that during the",
+    "FR": "*Veuillez noter que pendant la"
+  },
+  "print, the printing message will": {
+    "ENG": "print, the printing message will",
+    "FR": "imprimer, le message d'impression sera"
+  },
+  "display": { "ENG": "display", "FR": "affichage" },
+  "Yes": { "ENG": "Yes", "FR": "Oui" },
+  "No": { "ENG": "No", "FR": "Non" },
+  "Debit Totals": { "ENG": "Debit Totals", "FR": "Totaux de débit" },
+  "Credit Tip Totals": {
+    "ENG": "Credit Tip Totals",
+    "FR": "Totaux des pourboires de crédit"
+  },
+  "Grand Tip Total": {
+    "ENG": "Grand Tip Total",
+    "FR": "Total du grand pourboire"
+  },
+  "Transaction": { "ENG": "Transaction", "FR": "Transaction" },
+  "Tip Count": { "ENG": "Tip Count", "FR": "Nombre de pourboires" },
+  "Tip": { "ENG": "Tip", "FR": "Pointe" },
+  "Search": { "ENG": "Search", "FR": "Rechercher" },
+  "DEBIT": { "ENG": "DEBIT", "FR": "DÉBIT" },
+  "Transaction Number:": {
+    "ENG": "Transaction Number",
+    "FR": "Numéro de transaction"
+  },
+  "Inv Numb:": { "ENG": "Inv Numb:", "FR": "Inv engourdie:" },
+  "Ref Numb:": { "ENG": "Ref Numb:", "FR": "Numéro de référence:" },
+  "Totals": { "ENG": "Totals", "FR": "Totaux" },
+  "Total Amount:": { "ENG": "Total Amount:", "FR": "Montant total" },
+  "Visa Card": { "ENG": "Visa Card", "FR": "Montant total" },
+  "Batch Successfully Printed": {
+    "ENG": "Batch Successfully Printed",
+    "FR": "Lot imprimé avec succès"
+  },
+  "Batch Successfully Closed": {
+    "ENG": "Batch Successfully Closed",
+    "FR": "Lot fermé avec succès"
+  },
+  "Clerk/Server Report": {
+    "ENG": "Clerk/Server Report",
+    "FR": "Rapport de commis/serveur"
+  },
+  "Summary Report": { "ENG": "Summary Report", "FR": "Lot fermé avec succès" },
+  "Detailed Report": { "ENG": "Detailed Report", "FR": "Rapport détaillé" },
+  "Print Clerk/Server Report in": {
+    "ENG": "Print Clerk/Server Report in",
+    "FR": "Imprimer le rapport du commis/serveur dans"
+  },
+  "summary or detail?": {
+    "ENG": "summary or detail?",
+    "FR": "résumé ou détail?"
+  },
+  "*Please note that the summary": {
+    "ENG": "*Please note that the summary",
+    "FR": "*Veuillez noter que le résumé"
+  },
+  "report will only show the Clerk": {
+    "ENG": "report will only show the Clerk",
+    "FR": "le rapport ne montrera que le greffier"
+  },
+  "Id and Grand Total of the user": {
+    "ENG": "Id and Grand Total of the user",
+    "FR": "Id et Grand Total de l'utilisateur"
+  },
+  "Transactions Settings": {
+    "ENG": "Transactions Settings",
+    "FR": "Paramètres des transactions"
+  },
+  "Communications": { "ENG": "Communications", "FR": "Communication" },
+  "Terminal Configuration": {
+    "ENG": "Terminal Configuration",
+    "FR": "Configuration des bornes"
+  },
+  "Terminal Configuration Report": {
+    "ENG": "Terminal Configuration Report",
+    "FR": "Rapport de configuration des bornes"
+  },
+  "Transaction Settings": {
+    "ENG": "Transaction Settings",
+    "FR": "Paramètres des transactions"
+  },
+  "Printer": { "ENG": "Printer", "FR": "Imprimante" },
+  "Rewards": { "ENG": "Rewards", "FR": "Récompenses" },
+  "Manager Password": {
+    "ENG": "Manager Password",
+    "FR": "Mot de passe du gestionnaire"
+  },
+  "Host Settings": { "ENG": "Host Settings", "FR": "Paramètres de l'hôte" },
+  "Network Connection": {
+    "ENG": "Network Connection",
+    "FR": "Connexion réseau"
+  },
+  "Batch Close Parameter": {
+    "ENG": "Batch Close Parameter",
+    "FR": "Paramètre de fermeture de lot"
+  },
+  "Host URL": { "ENG": "Host URL", "FR": "URL de l'hôte" },
+  "Host Port": { "ENG": "Host Port", "FR": "Port hôte" },
+  "Batch URL": { "ENG": "Batch URL", "FR": "URL du lot" },
+  "Host URL 1": { "ENG": "Host URL 1", "FR": "URL de l'hôte 1" },
+  "Host URL 2": { "ENG": "Host URL 2", "FR": "URL de l'hôte 2" },
+  "Batch URL 1": { "ENG": "Batch URL 1", "FR": "URL de lot 1" },
+  "Batch URL 2": { "ENG": "Batch URL 2", "FR": "URL de lot 2" },
+  "MID": { "ENG": "MID", "FR": "MILIEU" },
+  "TID": { "ENG": "TID", "FR": "TID" },
+  "Logged Off": { "ENG": "Logged Off", "FR": "Déconnecté" },
+  "Offline": { "ENG": "Offline", "FR": "Hors ligne" },
+  "Echo Test": { "ENG": "Echo Test", "FR": "Test d'écho" },
+  "Mac Key Change": { "ENG": "Mac Key Change", "FR": "Changement de clé Mac" },
+  "Mac Key:": { "ENG": "Mac Key:", "FR": "Clé Mac" },
+  "Cutout?????": { "ENG": "Cutout?????", "FR": "Découper?????:" },
+  "Network Time-Out": {
+    "ENG": "Network Time-Out",
+    "FR": "Délai d'expiration du réseau"
+  },
+  "Connection Timeout (seconds)": {
+    "ENG": "Connection Timeout (seconds)",
+    "FR": "Délai de connexion (secondes)"
+  },
+  "Recieve Timeout (seconds)": {
+    "ENG": "Recieve Timeout (seconds)",
+    "FR": "Délai de réception (secondes)"
+  },
+  "Ping Network": { "ENG": "Ping Network", "FR": "Réseau de ping" },
+  "Ping Timout ( Seconds)": {
+    "ENG": "Ping Timout ( Seconds)",
+    "FR": "Délai d'attente du ping (secondes)"
+  },
+  "Batch Parameter": { "ENG": "Batch Parameter", "FR": "Paramètre de lot" },
+  "Merchant Batch Close": {
+    "ENG": "Merchant Batch Close",
+    "FR": "Fermeture de lot par le marchand"
+  },
+  "ENABLED": { "ENG": "ENABLED", "FR": "ACTIVÉ" },
+  "Auto Batch Close": {
+    "ENG": "Auto Batch Close",
+    "FR": "Fermeture automatique du lot"
+  },
+  "DISABLED": { "ENG": "DISABLED", "FR": "DÉSACTIVÉ" },
+  "Start Time": { "ENG": "Start Time", "FR": "Heure de début" },
+  "End Time": { "ENG": "End Time", "FR": "Heure de fin" },
+  "Language & Terminal Mode": {
+    "ENG": "Language & Terminal Mode ",
+    "FR": "Langue et mode terminal"
+  },
+  "Clerk Server Maintenance": {
+    "ENG": "Clerk Server Maintenance",
+    "FR": "Maintenance du serveur de commis"
+  },
+  "Terminal Mode": { "ENG": "Terminal Mode", "FR": "Mode borne" },
+  "Semi - Integrated Language": {
+    "ENG": "Semi - Integrated Language",
+    "FR": "Langage semi-intégré"
+  },
+  "Manual Entry": { "ENG": "Manual Entry", "FR": "Saisie manuelle" },
+  "Demo Mode": { "ENG": "Demo Mode", "FR": "Le mode de démonstration" },
+  "Add Clerk/Server": {
+    "ENG": "Add Clerk/Server",
+    "FR": "Ajouter commis/serveur"
+  },
+  "Clerk Server List": {
+    "ENG": "Clerk Server List",
+    "FR": "Liste des serveurs de commis"
+  },
+  "Delete Clerk/Server": {
+    "ENG": "Delete Clerk/Server",
+    "FR": "Supprimer commis/serveur"
+  },
+  "Add Name": { "ENG": "Add Name", "FR": "Ajouter un nom" },
+  "Add ID Number": {
+    "ENG": "Add ID Number",
+    "FR": "Ajouter un numéro d'identification"
+  },
+  "Clerk/Server List": {
+    "ENG": "Clerk/Server List",
+    "FR": "Liste des commis/serveurs"
+  },
+  "Name:": { "ENG": "Name:", "FR": "Nom:" },
+  "Delete": { "ENG": "Delete", "FR": "Supprimer" },
+  "ID Number:": { "ENG": "ID Number:", "FR": "Numéro d'identification:" },
+  "Delete clerk/Server Id": {
+    "ENG": "Delete clerk/Server Id",
+    "FR": "Supprimer l'identifiant de l'employé/du serveur"
+  },
+  "Enter Clerk/Server Id": {
+    "ENG": "Enter Clerk/Server Id",
+    "FR": "Entrez l'identifiant du commis/serveur"
+  },
+
+  "Clerk/Server Id": {
+    "ENG": "Clerk/Server Id",
+    "FR": "Identifiant du commis/serveur"
+  },
+
+  "Delete User": { "ENG": "Delete User", "FR": "Supprimer l'utilisateur" },
+  "Tip Configuration": {
+    "ENG": "Tip Configuration",
+    "FR": "Configuration de la pointe"
+  },
+  "Preset Percentage Amount": {
+    "ENG": "Preset Percentage Amount",
+    "FR": "Montant en pourcentage prédéfini"
+  },
+  "Preset Dollar Amount": {
+    "ENG": "Preset Dollar Amount",
+    "FR": "Montant en dollars prédéfini"
+  },
+  "Select Tip Type": {
+    "ENG": "Select Tip Type",
+    "FR": "Sélectionnez le type de pourboire"
+  },
+  "EDIT AMOUNT": { "ENG": "EDIT AMOUNT", "FR": "MODIFIER LE MONTANT" },
+  "Both Tip Amounts": {
+    "ENG": "Both Tip Amounts",
+    "FR": "Les deux montants de pourboire"
+  },
+  "Dollar Tip Amounts": {
+    "ENG": "Dollar Tip Amount",
+    "FR": "Montants des pourboires en dollars"
+  },
+  "Other Tip Amount": {
+    "ENG": "Other Tip Amount",
+    "FR": "Autre montant de pourboire"
+  },
+  "Percentage Tip Amounts": {
+    "ENG": "Percentage Tip Amounts",
+    "FR": "Pourboires en pourcentage"
+  },
+  "Tip Screen": { "ENG": "Tip Screen", "FR": "Écran de conseil" },
+  "Enter Cashback Limit Amount": {
+    "ENG": "Enter Cashback Limit Amount",
+    "FR": "Entrez le montant limite de remise en argent"
+  },
+  "Pre-set Amount 1": { "ENG": "Delete", "FR": "Montant prédéfini 1" },
+  "Pre-set Amount 2": { "ENG": "Delete", "FR": "Montant prédéfini 2" },
+  "Pre-set Amount 3": { "ENG": "Delete", "FR": "Montant prédéfini 3" },
+  "EDIT CASHBACK LIMIT": {
+    "ENG": "EDIT CASHBACK LIMIT",
+    "FR": "MODIFIER LA LIMITE DE CASHBACK"
+  },
+  "Cashback (Limit: ": {
+    "ENG": "Cashback (Limit: ",
+    "FR": "Cashback (Limite :"
+  },
+  "EDIT PRESET AMOUNT": {
+    "ENG": "EDIT PRESET AMOUNT",
+    "FR": "MODIFIER LE MONTANT PRÉRÉGLÉ"
+  },
+  "Pre-set Cashback Amount": {
+    "ENG": "Pre-set Cashback Amount",
+    "FR": "Montant de remboursement prédéfini"
+  },
+  "Surcharge Config": {
+    "ENG": "Surcharge Config",
+    "FR": "Configuration du supplément"
+  },
+  "Credit Surcharge": {
+    "ENG": "Credit Surcharge",
+    "FR": "Supplément de crédit"
+  },
+  "Debit Surcharge": { "ENG": "Debit Surcharge", "FR": "Supplément de débit" },
+  "Enter Fee Amount": {
+    "ENG": "Enter Fee Amount",
+    "FR": "Entrez le montant des frais"
+  },
+  "Enter Fee Percentage": {
+    "ENG": "Enter Fee Percentage",
+    "FR": "Entrez le pourcentage des frais"
+  },
+  "DEBIT SURCHARGE FEE": {
+    "ENG": "DEBIT SURCHARGE FEE",
+    "FR": "FRAIS DE SUPPLÉMENT DE DÉBIT"
+  },
+  "CREDIT SURCHARGE FEE": {
+    "ENG": "CREDIT SURCHARGE FEE",
+    "FR": "FRAIS DE SURCHARGE DE CRÉDIT"
+  },
+  "Surcharge Transaction Limit": {
+    "ENG": "Surcharge Transaction Limit",
+    "FR": "Limite de transaction supplémentaire"
+  },
+  "Enter Transaction Amount Limit": {
+    "ENG": "Enter Transaction Amount Limit",
+    "FR": "Saisir la limite du montant de la transaction"
+  },
+  "Printer Configuration": {
+    "ENG": "Printer Configuration",
+    "FR": "Configuration de l'imprimante"
+  },
+  "Pre-Print": { "ENG": "Pre-Print", "FR": "Pré-impression" },
+  "Both Receipts": { "ENG": "Both Receipts", "FR": "Les deux reçus" },
+  "Merchant Receipt": { "ENG": "Merchant Receipt", "FR": "Reçu du commerçant" },
+  "Customer Receipt": { "ENG": "Customer Receipt", "FR": "Le reçu du client" },
+  "Reciept Footer Lines": {
+    "ENG": "Reciept Footer Lines",
+    "FR": "Lignes de pied de page de reçu"
+  },
+  "Edit Footer Text": {
+    "ENG": "Edit Footer Text",
+    "FR": "Modifier le texte du pied de page"
+  },
+  "Edit Footer Lines": {
+    "ENG": "Edit Footer Lines",
+    "FR": "Modifier les lignes de pied de page"
+  },
+  "Footer Line": { "ENG": "Footer Line", "FR": "Ligne de pied de page" },
+  "Enter Text": { "ENG": "Enter Text", "FR": "Entrez du texte" },
+  "General Information": {
+    "ENG": "General Information",
+    "FR": "Informations générales"
+  },
+  "Default Language:": {
+    "ENG": "Default Language:",
+    "FR": "Langage par défaut:"
+  },
+  "Currency Symbol:": {
+    "ENG": "Currency Symbol:",
+    "FR": "Symbole de la monnaie:"
+  },
+  "Idle Logo:": { "ENG": "Idle Logo:", "FR": "Logo inactif:" },
+  "Terminal Time-Outs": {
+    "ENG": "Terminal Time-Outs",
+    "FR": "Délais d'attente du terminal"
+  },
+  "Master Timeouts:": { "ENG": "Master Timeouts:", "FR": "Délais maître:" },
+  "Idle Timeout:": { "ENG": "Idle Timeout:", "FR": "Délai d'inactivité:" },
+  "Input Timeout:": { "ENG": "Input Timeout:", "FR": "Délai d'entrée:" },
+  "EMV Information": { "ENG": "EMV Information", "FR": "Informations CEM" },
+  "Terra. Type:": { "ENG": "Terra. Type:", "FR": "Terra. Taper:" },
+  "Country Codec:": { "ENG": "Country Codec:", "FR": "Codec pays:" },
+  "Currency Code:": { "ENG": "Currency Code:", "FR": "Code de devise:" },
+  "Currency EXP:": { "ENG": "Currency EXP:", "FR": "EXP devise:" },
+  "Capability:": { "ENG": "Capability:", "FR": "Aptitude:" },
+  "Add-on Capability:": {
+    "ENG": "Add-on Capability:",
+    "FR": "Capacité supplémentaire:"
+  },
+  "Kernel Mode:": { "ENG": "Kernel Mode:", "FR": "Mode noyau:" },
+  "Application Capabilities:": {
+    "ENG": "Application Capabilities:",
+    "FR": "Capacités des applications"
+  },
+  "Terminal Settings": {
+    "ENG": "Terminal Settings",
+    "FR": "Paramètres du terminal"
+  },
+  "Surcharge Fee:": { "ENG": "Surcharge Fee:", "FR": "Frais supplémentaires:" },
+  "Surcharge %:": { "ENG": "Surcharge %:", "FR": "Supplément %:" },
+  "Printer:": { "ENG": "Printer:", "FR": "Imprimante:" },
+  "Merchant Copy:": { "ENG": "Merchant Copy:", "FR": "Copie marchand:" },
+  "Customer Copy:": { "ENG": "Customer Copy:", "FR": "Copie du client:" },
+  "Both:": { "ENG": "Both:", "FR": "Tous les deux" },
+  "Clerk/Server ID": { "ENG": "Clerk/Server ID", "FR": "ID commis/serveur" },
+  "Invoice Number": { "ENG": "Invoice Number", "FR": "Numéro de facture" },
+  "Amount Other:": { "ENG": "Amount Other:", "FR": "Montant autre:" },
+  "Pre-Set $ Amount:": {
+    "ENG": "Pre-Set $ Amount:",
+    "FR": "Montant en $ prédéfini:"
+  },
+  "Communication Type": {
+    "ENG": "Communication Type",
+    "FR": "Type de communication"
+  },
+  "Clerk Id:": { "ENG": "Clerk Id:", "FR": "Identifiant de l'employé:" },
+  "Account Type:": { "ENG": "Account Type:", "FR": "Type de compte:" },
+  "Reference Number": {
+    "ENG": "Reference Number",
+    "FR": "Numéro de réference"
+  },
+  "Trace ID:": { "ENG": "Trace ID:", "FR": "ID de suivi:" },
+  "Authentication Number:": {
+    "ENG": "Authentication Number:",
+    "FR": "Numéro d'authentification:"
+  },
+  "Application Label:": {
+    "ENG": "Application Label:",
+    "FR": "Étiquette d'application:"
+  },
+  "Application Pref. Name:": {
+    "ENG": "Application Pref. Name:",
+    "FR": "Préférence d'application. Nom:"
+  },
+  "AID:": { "ENG": "AID:", "FR": "AIDE:" },
+  "TVR:": { "ENG": "TVR:", "FR": "TVR:" },
+  "TSI:": { "ENG": "TSI:", "FR": "STI:" },
+  "Entry Method": { "ENG": "Entry Method", "FR": "Méthode d'entrée" },
+  "Visa Debit": { "ENG": "Visa Debit", "FR": "Débit Visa" },
+  "EMV Parameter Report": {
+    "ENG": "EMV Parameter Report",
+    "FR": "Rapport de paramètres EMV"
+  },
+  "Terminal Type:": { "ENG": "Terminal Type:", "FR": "Type de borne:" },
+  "Terminal Capabilities:": {
+    "ENG": "Terminal Capabilities:",
+    "FR": "Capacités des terminaux:"
+  },
+  "Additional Capabilities:": {
+    "ENG": "Additional Capabilities:",
+    "FR": "Capacités supplémentaires:"
+  },
+  "TAC Denial:": { "ENG": "TAC Denial:", "FR": "Refus du TAC:" },
+  "TAC Online:": { "ENG": "TAC Online:", "FR": "TAC en ligne:" },
+  "TAC Default:": { "ENG": "TAC Default:", "FR": "TAC par défaut:" },
+  "App. Version:": { "ENG": "App. Version:", "FR": "App. Version:" },
+  "Threshold Random:": {
+    "ENG": "Threshold  Random:",
+    "FR": "Seuil aléatoire:"
+  },
+  "Target Percent Random:": {
+    "ENG": "Target Percent Random:",
+    "FR": "Pourcentage aléatoire cible:"
+  },
+  "Maximum Target Random:": {
+    "ENG": "Maximum Target Random:",
+    "FR": "Cible maximale aléatoire:"
+  },
+  "Default DDOL:": { "ENG": "Default DDOL:", "FR": "DDOL par défaut:" },
+  "Default TDOL:": { "ENG": "Default TDOL:", "FR": "TDOL par défaut:" },
+  "Allow Fallback:": {
+    "ENG": "Allow Fallback:",
+    "FR": "Autoriser le remplacement:"
+  },
+  "Contactless": { "ENG": "Contactless", "FR": "Sans contact" },
+  "TTQ:": { "ENG": "TTQ:", "FR": "TTQ:" },
+  "CTLS Floor Limit:": {
+    "ENG": "CTLS Floor Limit:",
+    "FR": "Limite plancher CTLS:"
+  },
+  "CTLS Transaction Limit:": {
+    "ENG": "CTLS Transaction Limit:",
+    "FR": "Limite de transactions CTLS:"
+  },
+  "CTLS CVM Limit:": { "ENG": "CTLS CVM Limit:", "FR": "Limite CVM CTLS:" },
+  "Pre-Set % Amount:": {
+    "ENG": "Pre-Set % Amount:",
+    "FR": "Montant en % préréglé:"
+  },
+  "Auto Increment": {
+    "ENG": "Auto Increment",
+    "FR": "Incrémentation automatique"
+  },
+  "Invoice #:": { "ENG": "Invoice #:", "FR": "Facture d'achat #:" },
+  "Reference #:": { "ENG": "Reference #:", "FR": "Référence #:" },
+  "Tip Total": { "ENG": "Tip Total", "FR": "Total des pourboires" },
+  "Grand Total": { "ENG": "Grand Total", "FR": "Total" },
+  "Search Filter": { "ENG": "Search Filter", "FR": "Filtre de recherche" },
+  "All Transactions": {
+    "ENG": "All Transactions",
+    "FR": "toutes transactions"
+  },
+  "Approval Code": { "ENG": "Approval Code", "FR": "Code de confirmation" },
+  "Card Number": { "ENG": "Card Number", "FR": "Numéro de carte" },
+  "Update": { "ENG": "Update", "FR": "Mettre à jour" },
+  "Sub-Totals": { "ENG": "Sub-Totals", "FR": "Sous-totaux" },
+  "Credit Totals": { "ENG": "Credit Totals", "FR": "Totaux des crédits" },
+  "Sales": { "ENG": "Sales", "FR": "Ventes" },
+  "Tips": { "ENG": "Tips", "FR": "Conseils" },
+  "Clerk Server Report": {
+    "ENG": "Clerk Server Report",
+    "FR": "Rapport de serveur de commis"
+  },
+  "Search Clerk/Server ID": {
+    "ENG": "Search Clerk/Server ID",
+    "FR": "Recherche d'identifiant de commis/serveur"
+  },
+  "Refunds": { "ENG": "Refunds", "FR": "Remboursements" },
+  "CREDIT": { "ENG": "CREDIT", "FR": "CRÉDIT" },
+  "Merchant Surcharge": {
+    "ENG": "Merchant Surcharge",
+    "FR": "Supplément marchand"
+  },
+  "Host Status": { "ENG": "Host Status", "FR": "Statut de l'hôte" },
+  "LOGGED ON": { "ENG": "LOGGED ON", "FR": "Connecté" },
+  "LOGGED OFF": { "ENG": "LOGGED OFF", "FR": "Déconnecté" },
+  "Invoice Number Config": {
+    "ENG": "Invoice Number Config",
+    "FR": "Configuration du numéro de facture"
+  },
+  "Select": { "ENG": "Select", "FR": "Sélectionner" },
+  "Card chip error. Please try again.": {
+    "ENG": "Card chip error. Please try again.",
+    "FR": "Erreur de puce de carte. Veuillez réessayer."
+  },
+  "Please call 1-800-848-2974 Ext 2 or email": {
+    "ENG": "Please call 1-800-848-2974 Ext 2 or email",
+    "FR": "Veuillez appeler le 1-800-848-2974 poste 2 ou envoyer un courriel"
+  },
+  "merchantservices@pspservicesco.com": {
+    "ENG": "merchantservices@pspservicesco.com",
+    "FR": "marchandservices@pspservicesco.com"
+  },
+
+  "Reset Merchant Passcode": {
+    "ENG": "Reset Merchant Passcode",
+    "FR": "Réinitialiser le code d'accès du marchand"
+  },
+
+  "Enter Current Passcode": {
+    "ENG": "Enter Current Passcode",
+    "FR": "Réinitialiser le code d'accès du marchand"
+  },
+  "Create New Passcode": {
+    "ENG": "Create New Passcode",
+    "FR": "Réinitialiser le code d'accès du marchand"
+  },
+  "Confirm New Passcode": {
+    "ENG": "Confirm New Passcode",
+    "FR": "Réinitialiser le code d'accès du marchand"
+  },
+  "Activate": {
+    "ENG": "Activate",
+    "FR": "Activer"
+  },
+
+  "First Name": {
+    "ENG": "First Name",
+    "FR": "Prénom"
+  },
+  "Last Name": {
+    "ENG": "Last Name",
+    "FR": "Nom de famille"
+  },
+  "Add Email": {
+    "ENG": "Add Email",
+    "FR": "Ajouter un e-mail"
+  },
+  "Disable": {
+    "ENG": "Disable",
+    "FR": "Disable"
+  },
+  "Settlement Reports": {
+    "ENG": "Settlement Reports",
+    "FR": "Rapports de règlement"
+  },
+  "Daily Close Report": {
+    "ENG": "Daily Close Report",
+    "FR": "Rapport de clôture quotidienne"
+  },
+  "Daily Sales Report": {
+    "ENG": "Daily Sales Report",
+    "FR": "Rapport quotidien des ventes"
+  },
+  "Organize By": {
+    "ENG": "Organize By",
+    "FR": "Organiser par"
+  },
+  "Card Brands": {
+    "ENG": "Card Brands",
+    "FR": "Marques de cartes"
+  },
+  "Terminal Totals Report": {
+    "ENG": "Terminal Totals Report",
+    "FR": "Rapport sur les totaux du terminal"
+  },
+  "Tip Report": {
+    "ENG": "Tip Report",
+    "FR": "Rapport de pourboire"
+  },
+  "Transaction Detail Report": {
+    "ENG": "Transaction Detail Report",
+    "FR": "Rapport détaillé des transactions"
+  }
+}

@@ -1,0 +1,8139 @@
+[
+  {
+    "name": "balance_inquiry_request",
+    "mti": "0100",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0100",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "3230058020C09000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640",
+        "name": "PRIMARY ACCOUNT NUMBER"
+      },
+      {
+        "tag": "3",
+        "sample data": "31x000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000000",
+        "name": "AMOUNT, TRANSACTION"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE NO."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "14",
+        "sample data": "991231",
+        "name": "EXPIRATION DATE"
+      },
+      {
+        "tag": "22",
+        "sample data": "021",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "100",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00 or 02",
+        "name": "POS CONDITION CODE"
+      },
+
+      {
+        "tag": "35",
+        "sample data": "54233900074112640=9912330\n\n00123410000",
+        "name": "TRACK 2 DATA"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "52",
+        "sample data": "34.56.F4.3B.6E.D2.77.8B",
+        "name": "PIN BLOCK (ENCRYPTED)"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "check_card_request",
+    "mti": "0100",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0100",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "3230058020C09000",
+        "name": "PRIMARY BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640",
+        "name": "PRIMARY ACCOUNT NUMBER"
+      },
+      {
+        "tag": "3",
+        "sample data": "370000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE NO."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "14",
+        "sample data": "991231",
+        "name": "EXPIRATION DATE"
+      },
+      {
+        "tag": "22",
+        "sample data": "021",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "100",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00 or 02",
+        "name": "POS CONDITION CODE"
+      },
+
+      {
+        "tag": "35",
+        "sample data": "54233900074112640=9912330\n\n00123410000",
+        "name": "TRACK 2 DATA"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "52",
+        "sample data": "34.56.F4.3B.6E.D2.77.8B",
+        "name": "PIN BLOCK (ENCRYPTED)"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "pin_verification_request",
+    "mti": "0100",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0100",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "3230058020C09000",
+        "name": "PRIMARY BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640",
+        "name": "PRIMARY ACCOUNT NUMBER"
+      },
+      {
+        "tag": "3",
+        "sample data": "800000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE NO."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "14",
+        "sample data": "991231",
+        "name": "EXPIRATION DATE"
+      },
+      {
+        "tag": "22",
+        "sample data": "051",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "100",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00",
+        "name": "POS CONDITION CODE"
+      },
+
+      {
+        "tag": "35",
+        "sample data": "54233900074112640=9912330\n\n00123410000",
+        "name": "TRACK 2 DATA"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "52",
+        "sample data": "34.56.F4.3B.6E.D2.77.8B",
+        "name": "PIN BLOCK (ENCRYPTED)"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "mini_statement_request",
+    "mti": "0100",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0100",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "3230058020C09000",
+        "name": "PRIMARY BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640",
+        "name": "PRIMARY ACCOUNT NUMBER"
+      },
+      {
+        "tag": "3",
+        "sample data": "380000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE NO."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "14",
+        "sample data": "991231",
+        "name": "EXPIRATION DATE"
+      },
+      {
+        "tag": "22",
+        "sample data": "051",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "100",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00",
+        "name": "POS CONDITION CODE"
+      },
+
+      {
+        "tag": "35",
+        "sample data": "54233900074112640=9912330\n\n00123410000",
+        "name": "TRACK 2 DATA"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "52",
+        "sample data": "34.56.F4.3B.6E.D2.77.8B",
+        "name": "PIN BLOCK (ENCRYPTED)"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "account_list_inquiry_request",
+    "mti": "0100",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0100",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "3230058020C09000",
+        "name": "PRIMARY BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640",
+        "name": "PRIMARY ACCOUNT NUMBER"
+      },
+      {
+        "tag": "3",
+        "sample data": "810000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "7",
+        "sample data": "0709170618",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000009",
+        "name": "SYSTEM TRACE NO."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "14",
+        "sample data": "991231",
+        "name": "EXPIRATION DATE"
+      },
+      {
+        "tag": "22",
+        "sample data": "051",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "100",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00",
+        "name": "POS CONDITION CODE"
+      },
+
+      {
+        "tag": "35",
+        "sample data": "54233900074112640=9912330\n\n00123410000",
+        "name": "TRACK 2 DATA"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "48",
+        "sample data": "080006312000",
+        "name": "ADDITIONAL DATA, PRIVATE"
+      },
+      {
+        "tag": "52",
+        "sample data": "34.56.F4.3B.6E.D2.77.8B",
+        "name": "PIN BLOCK (ENCRYPTED)"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "balance_inquiry_response",
+    "mti": "0110",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0110",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "723000000E808000",
+        "name": "BITMAP"
+      },
+      {
+        "tag": "2",
+        "sample data": "5423390007411264012",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "31x000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE NO."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL NUMBER"
+      },
+      {
+        "tag": "38",
+        "sample data": "000000",
+        "name": "APPROVAL NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "48",
+        "sample data": "001024 KOMUC (%):\n\n0140011\n\n014001M",
+        "name": "0.00"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "54a",
+        "sample data": "040",
+        "name": "ADDITIONAL AMT. LENGTH"
+      },
+      {
+        "tag": "54b",
+        "sample data": "0091840С00000000010000928\n\n40С000000000200",
+        "name": "ADDITIONAL AMOUNT"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "56",
+        "sample data": "0010330129Q1HJZ28RKA1EB\n\nL470G9XYG90R5D3E",
+        "name": "PAYMENT ACCOUNT DATA"
+      },
+      {
+        "tag": "62",
+        "sample data": "Call Issuer",
+        "name": "CUSTOMER DEFINED RESPONSE"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "pin_change_response",
+    "mti": "0110",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0110",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "723000000E808000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "5423390007411264012",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "790000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000000",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE NO."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE\n\nNUMBER"
+      },
+      {
+        "tag": "38",
+        "sample data": "000000",
+        "name": "APPROVAL NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "pin_verification_response",
+    "mti": "0110",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0110",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "F23000000E808000",
+        "name": "PRIMARY BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "5423390007411264012",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "800000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE NO."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "38",
+        "sample data": "000000",
+        "name": "APPROVAL NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "62",
+        "sample data": "Call Issuer",
+        "name": "CUSTOMER DEFINED RESPONSE"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "mini_statement_response",
+    "mti": "0110",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0110",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "F23000000E808000",
+        "name": "PRIMARY BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "5423390007411264012",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "380000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE NO."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE\n\nNUMBER"
+      },
+      {
+        "tag": "38",
+        "sample data": "000000",
+        "name": "APPROVAL NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "61",
+        "sample data": "074011221111308113602020\n\n00301D040412340503978061\n\n8Goods and services0706123 456060011221112402020103\n\n01D040600500005039780608 Cash ATM0706716428",
+        "name": "MULTI DATA"
+      },
+      {
+        "tag": "62",
+        "sample data": "Call Issuer",
+        "name": "CUSTOMER DEFINED RESPONSE"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "account_list_inquiry_response",
+    "mti": "0110",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0110",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "F23000000E808000",
+        "name": "PRIMARY BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "5423390007411264012",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "810000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "7",
+        "sample data": "0709170618",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000009",
+        "name": "SYSTEM TRACE NO."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001062873",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "38",
+        "sample data": "624853",
+        "name": "APPROVAL NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "46",
+        "sample data": "00840D0000000061000000D0\n\n0000000840",
+        "name": "AMOUNT, FEES"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "61",
+        "sample data": "090910000455010038401101\n\n109091000053641003840110\n\n110909100008642100397811\n\n011090910000762510039781\n\n101109091000036591003840\n\n11013",
+        "name": "MULTI DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "pin_change_request",
+    "mti": "0100",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0100",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "723000000E808000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640",
+        "name": "PRIMARY ACCOUNT NUMBER"
+      },
+      {
+        "tag": "3",
+        "sample data": "790000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000000",
+        "name": "AMOUNT, TRANSACTION"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE NO."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "14",
+        "sample data": "991231",
+        "name": "EXPIRATION DATE"
+      },
+      {
+        "tag": "22",
+        "sample data": "021",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "100",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00 or 02",
+        "name": "POS CONDITION CODE"
+      },
+
+      {
+        "tag": "35",
+        "sample data": "54233900074112640=991233\n\n000123410000",
+        "name": "TRACK 2 DATA"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "48",
+        "sample data": "003004432101300611 999",
+        "name": "ADDITIONAL DATA, PRIVATE"
+      },
+      {
+        "tag": "52",
+        "sample data": "34.56.77.9B.23.F4.F5.8B",
+        "name": "PIN BLOCK (ENCRYPTED)"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "pin_change_confirm_request",
+    "mti": "0120",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0120",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "723000000E808000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640",
+        "name": "PRIMARY ACCOUNT NUMBER"
+      },
+      {
+        "tag": "3",
+        "sample data": "790000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000000",
+        "name": "AMOUNT, TRANSACTION"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE NO."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "14",
+        "sample data": "991231",
+        "name": "EXPIRATION DATE"
+      },
+      {
+        "tag": "22",
+        "sample data": "021",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "100",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00 or 02",
+        "name": "POS CONDITION CODE"
+      },
+
+      {
+        "tag": "35",
+        "sample data": "54233900074112640=991233\n\n000123410000",
+        "name": "TRACK 2 DATA"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETREIVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "pin_change_confirm_response",
+    "mti": "0130",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0110",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "723000000E808000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "5423390007411264012",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "790000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000000",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE NO."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "purchase_request",
+    "mti": "0200",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0200",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "7230058020C19000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "5423390007411264012",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "00x000",
+        "name": "PROCESSING CODE (FINANCIAL TRANSACTION)"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE NO."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "22",
+        "sample data": "021 or 010",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "200",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00 or 02",
+        "name": "POS CONDITION CODE"
+      },
+
+      {
+        "tag": "35",
+        "sample data": "54233900074112640=9912330\n\n00123410000",
+        "name": "TRACK 2 DATA"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "48",
+        "sample data": "003004432101300611 999",
+        "name": "ADDITIONAL DATA, PRIVATE"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "52",
+        "sample data": "34.56.77.9B.23.F4.F5.8B",
+        "name": "PIN BLOCK (ENCRYPTED)"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "purchase_with_tips_request",
+    "mti": "0200",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0200",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "7230058020C19000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "5423390007411264012",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "00x000",
+        "name": "PROCESSING CODE (FINANCIAL TRANSACTION)"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000010000",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE NO."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "22",
+        "sample data": "021 or 010",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "200",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00 or 02",
+        "name": "POS CONDITION CODE"
+      },
+
+      {
+        "tag": "35",
+        "sample data": "54233900074112640=9912330\n\n00123410000",
+        "name": "TRACK 2 DATA"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "48",
+        "sample data": "003004432101300611 999",
+        "name": "ADDITIONAL DATA, PRIVATE"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "52",
+        "sample data": "34.56.77.9B.23.F4.F5.8B",
+        "name": "PIN BLOCK (ENCRYPTED)"
+      },
+      {
+        "tag": "54a",
+        "sample data": "020",
+        "name": "ADDITIONAL AMT. LENGTH"
+      },
+      {
+        "tag": "54b",
+        "sample data": "0058840С000000000100",
+        "name": "ADDITIONAL AMOUNT"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "utility_payment_request",
+    "mti": "0200",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0200",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "B230058020C19201",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640",
+        "name": "PRIMARY ACCOUNT NUMBER"
+      },
+      {
+        "tag": "3",
+        "sample data": "50x000",
+        "name": "PROCESSING CODE (FINANCIAL TRANSACTION)"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE NO."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "22",
+        "sample data": "021",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "200",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00 or 02",
+        "name": "POS CONDITION CODE"
+      },
+
+      {
+        "tag": "35",
+        "sample data": "54233900074112640=9912330\n\n00123410000",
+        "name": "TRACK 2 DATA"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "48",
+        "sample data": "00300254\n\n00400846211470\n\n00501174951234567",
+        "name": "ADDITIONAL DATA, PRIVATE"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "52",
+        "sample data": "34.56.77.9B.23.F4.F5.8B",
+        "name": "PIN BLOCK (ENCRYPTED)"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      },
+      {
+        "tag": "",
+        "sample data": "",
+        "name": ""
+      },
+      {
+        "tag": "",
+        "sample data": "",
+        "name": ""
+      }
+    ]
+  },
+  {
+    "name": "p2p_transfer_merchant_initiated_p2p_transfer_request",
+    "mti": "0200",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0200",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "B230058020C19201",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640123",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "49x000 – for P2P Transfer\n\n590000 – for Merchant initiated P2P Transfer",
+        "name": "PROCESSING CODE\n\n(FINANCIAL TRANSACTION)"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE NO."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "22",
+        "sample data": "021",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "200",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00 or 02",
+        "name": "POS CONDITION CODE"
+      },
+      {
+        "tag": "34a",
+        "sample data": "16",
+        "name": "PAN2 LENGTH"
+      },
+      {
+        "tag": "34b",
+        "sample data": "4000010000000001",
+        "name": "PAN2"
+      },
+      {
+        "tag": "35",
+        "sample data": "54233900074112640=9912330\n\n00123410000",
+        "name": "TRACK 2 DATA"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "48",
+        "sample data": "0520169999990000000001053\n\n042112054011IVAN IVANOV061011PETR PETROV",
+        "name": "PRIVATE DATA"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "52",
+        "sample data": "34.56.77.9B.23.F4.F5.8B",
+        "name": "PIN BLOCK (ENCRYPTED)"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "p2p_credit_request",
+    "mti": "0200",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0200",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "B230058020C19201",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640123",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "29x000",
+        "name": "PROCESSING CODE (FINANCIAL TRANSACTION)"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE NO."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "22",
+        "sample data": "021",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "200",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00 or 02",
+        "name": "POS CONDITION CODE"
+      },
+      {
+        "tag": "34a",
+        "sample data": "16",
+        "name": "PAN2 LENGTH"
+      },
+      {
+        "tag": "34b",
+        "sample data": "4000010000000001",
+        "name": "PAN2"
+      },
+
+      {
+        "tag": "35",
+        "sample data": "54233900074112640=9912330\n\n00123410000",
+        "name": "TRACK 2 DATA"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "48",
+        "sample data": "0520169999990000000001053\n\n042112054011IVAN IVANOV061011PETR PETROV",
+        "name": "PRIVATE DATA"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "52",
+        "sample data": "34.56.77.9B.23.F4.F5.8B",
+        "name": "PIN BLOCK (ENCRYPTED)"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "cash_advance_request",
+    "mti": "0200",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0200",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "3230058020C09000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640",
+        "name": "PRIMARY ACCOUNT NUMBER"
+      },
+      {
+        "tag": "3",
+        "sample data": "01x000",
+        "name": "PROCESSING CODE (CASH ADVANCE)"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM"
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "22",
+        "sample data": "021",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "200",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00 or 02",
+        "name": "POS CONDITION CODE"
+      },
+
+      {
+        "tag": "35",
+        "sample data": "54233900074112640=9912330\n\n00123410000",
+        "name": "TRACK 2 DATA"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "46",
+        "sample data": "00840D0000000061000000D0\n\n0000000840",
+        "name": "AMOUNTS,FEES"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "52",
+        "sample data": "34.65.FF.3D.12.F6.F4.8B",
+        "name": "PIN BLOCK (ENCRYPTED)"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "pre_authorization_request",
+    "mti": "0200",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0200",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "3230058020C09000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640",
+        "name": "PRIMARY ACCOUNT NUMBER"
+      },
+      {
+        "tag": "3",
+        "sample data": "93x000",
+        "name": "PROCESSING CODE (FINANCIAL ADVICE)"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEMS TRACE AUDIT NUM"
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "22",
+        "sample data": "021",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "200",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00 or 02",
+        "name": "POS CONDITION CODE"
+      },
+
+      {
+        "tag": "35",
+        "sample data": "54233900074112640=9912330\n\n00123410000",
+        "name": "TRACK 2 DATA"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "48",
+        "sample data": "01300611 999",
+        "name": "ADDITIONAL DATA, PRIVATE"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "52",
+        "sample data": "34.56.7F.5F.23.F4.F3.8B",
+        "name": "PIN BLOCK (ENCRYPTED)"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "pre_authorization_completion_request",
+    "mti": "0200",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0200",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "3230058020C09000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640",
+        "name": "PRIMARY ACCOUNT NUMBER"
+      },
+      {
+        "tag": "3",
+        "sample data": "94x000",
+        "name": "PROCESSING CODE\n\n(FINANCIAL ADVICE)"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM"
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "22",
+        "sample data": "021",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "200",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00 or 02",
+        "name": "POS CONDITION CODE"
+      },
+
+      {
+        "tag": "35",
+        "sample data": "54233900074112640=9912330\n\n00123410000",
+        "name": "TRACK 2 DATA"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "52",
+        "sample data": "34.56.7F.5F.23.F4.F3.8B",
+        "name": "PIN BLOCK (ENCRYPTED)"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "purchase_with_cashback_request",
+    "mti": "0200",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0200",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "3230058020C09400",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640",
+        "name": "PRIMARY ACCOUNT NUMBER"
+      },
+      {
+        "tag": "3",
+        "sample data": "09x000",
+        "name": "PROCESSING CODE (FINANCIAL TRANSACTION)"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000300",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "22",
+        "sample data": "021",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "200",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00 or 02",
+        "name": "POS CONDITION CODE"
+      },
+
+      {
+        "tag": "35",
+        "sample data": "54233900074112640=9912330\n\n00123410000",
+        "name": "TRACK 2 DATA"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "52",
+        "sample data": "34.56.7F.5F.23.F4.F3.8B",
+        "name": "PIN BLOCK (ENCRYPTED)"
+      },
+      {
+        "tag": "54a",
+        "sample data": "012",
+        "name": "ADDITIONAL AMT. LENGTH"
+      },
+      {
+        "tag": "54b",
+        "sample data": "0040810C000000000100",
+        "name": "ADDITIONAL AMOUNT"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "return_cancellation_request",
+    "mti": "0200",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0200",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "3230058020C09000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640",
+        "name": "PRIMARY ACCOUNT NUMBER"
+      },
+      {
+        "tag": "3",
+        "sample data": "20x000",
+        "name": "PROCESSING CODE (FINANCIAL TRANSACTION)"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "22",
+        "sample data": "021",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "200",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00 or 02",
+        "name": "POS CONDITION CODE"
+      },
+
+      {
+        "tag": "35",
+        "sample data": "54233900074112640=9912330\n\n00123410000",
+        "name": "TRACK 2 DATA"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL NUMBER"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "48",
+        "sample data": "1",
+        "name": "ADDITIONAL DATA, PRIVATE"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "52",
+        "sample data": "34.56.7F.5F.23.F4.F3.8B",
+        "name": "PIN BLOCK (ENCRYPTED)"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "return_refund_request",
+    "mti": "0200",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0200",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "3230058020C09000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640",
+        "name": "PRIMARY ACCOUNT NUMBER"
+      },
+      {
+        "tag": "3",
+        "sample data": "20x000",
+        "name": "PROCESSING CODE (FINANCIAL TRANSACTION)"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "22",
+        "sample data": "021",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "200",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00 or 02",
+        "name": "POS CONDITION CODE"
+      },
+
+      {
+        "tag": "35",
+        "sample data": "54233900074112640=9912330\n\n00123410000",
+        "name": "TRACK 2 DATA"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL NUMBER"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "52",
+        "sample data": "34.56.7F.5F.23.F4.F3.8B",
+        "name": "PIN BLOCK (ENCRYPTED)"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "pos_cash_deposit_request",
+    "mti": "0200",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0200",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "3230058020C09000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640",
+        "name": "PRIMARY ACCOUNT NUMBER"
+      },
+      {
+        "tag": "3",
+        "sample data": "21x000",
+        "name": "PROCESSING CODE (FINANCIAL TRANSACTION)"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "22",
+        "sample data": "021",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "200",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00 or 02",
+        "name": "POS CONDITION CODE"
+      },
+
+      {
+        "tag": "35",
+        "sample data": "54233900074112640=9912330\n\n00123410000",
+        "name": "TRACK 2 DATA"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "52",
+        "sample data": "34.56.7F.5F.23.F4.F3.8B",
+        "name": "PIN BLOCK (ENCRYPTED)"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "loyalty_purchase_request",
+    "mti": "0200",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0200",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "3230058020C09000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640",
+        "name": "PRIMARY ACCOUNT NUMBER"
+      },
+      {
+        "tag": "3",
+        "sample data": "176000",
+        "name": "PROCESSING CODE (FINANCIAL TRANSACTION)"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE NO."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "22",
+        "sample data": "021",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "200",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00 or 02",
+        "name": "POS CONDITION CODE"
+      },
+
+      {
+        "tag": "35",
+        "sample data": "54233900074112640=9912330\n\n00123410000",
+        "name": "TRACK 2 DATA"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "49",
+        "sample data": "999",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "52",
+        "sample data": "34.56.77.9B.23.F4.F5.8B",
+        "name": "PIN BLOCK (ENCRYPTED)"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "funds_transfer_request",
+    "mti": "0200",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0200",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "7230058020C19000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "5423390007411264012",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "40x0y0",
+        "name": "PROCESSING CODE (FINANCIAL TRANSACTION)"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE NO."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "22",
+        "sample data": "021 or 010",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "200",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00 or 02",
+        "name": "POS CONDITION CODE"
+      },
+
+      {
+        "tag": "35",
+        "sample data": "54233900074112640=9912330\n\n00123410000",
+        "name": "TRACK 2 DATA"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "48",
+        "sample data": "003004432101300611 999",
+        "name": "ADDITIONAL DATA, PRIVATE"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "52",
+        "sample data": "34.56.77.9B.23.F4.F5.8B",
+        "name": "PIN BLOCK (ENCRYPTED)"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      },
+      {
+        "tag": "102",
+        "sample data": "12345678909876543210",
+        "name": "ACCOUNT IDENTIFICATION 1"
+      },
+      {
+        "tag": "103",
+        "sample data": "98765432101234567890",
+        "name": "ACCOUNT IDENTIFICATION 2"
+      },
+      {
+        "tag": "128",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "SECONDARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "merchant_initiated_purchase_request",
+    "mti": "0200",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0200",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "7230058020C19000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "5423390007411264012",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "00x000",
+        "name": "PROCESSING CODE (FINANCIAL TRANSACTION)"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE NO."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "22",
+        "sample data": "010 or 100",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "200",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "48",
+        "sample data": "0160011064006123456075001\n\n501690012",
+        "name": "ADDITIONAL DATA, PRIVATE"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "tips_adjustment_request",
+    "mti": "0200",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0220",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "3230058020C09000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640",
+        "name": "PRIMARY ACCOUNT NUMBER"
+      },
+      {
+        "tag": "3",
+        "sample data": "19x000",
+        "name": "PROCESSING CODE (FINANCIAL ADVICE)"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM"
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "22",
+        "sample data": "021",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "200",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00",
+        "name": "POS CONDITION CODE"
+      },
+
+      {
+        "tag": "35",
+        "sample data": "54233900074112640=9912330\n\n00123410000",
+        "name": "TRACK 2 DATA"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "38",
+        "sample data": "000000",
+        "name": "APPROVAL NUMBER"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "manual_purchase_request",
+    "mti": "0200",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0200",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "7234058000C08000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640123",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "00x000",
+        "name": "PROCESSING CODE (FINANCIAL TRANSACTION)"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE NO."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "14",
+        "sample data": "991231",
+        "name": "EXPIRATION DATE"
+      },
+      {
+        "tag": "22",
+        "sample data": "016",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "200",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00 or 02",
+        "name": "POS CONDITION CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "manual_fallback_purchase_request",
+    "mti": "0200",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0200",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "7234058000C08000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640123",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "00x000",
+        "name": "PROCESSING CODE (FINANCIAL TRANSACTION)"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE NO."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "14",
+        "sample data": "991231",
+        "name": "EXPIRATION DATE"
+      },
+      {
+        "tag": "22",
+        "sample data": "796",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "200",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00 or 02",
+        "name": "POS CONDITION CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "purchase_with_tips_response",
+    "mti": "0210",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0210",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "723000000E818000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640123",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "00x000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "38",
+        "sample data": "000000",
+        "name": "APPROVAL NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "46",
+        "sample data": "00840D0000000061000000D0\n\n0000000840",
+        "name": "AMOUNTS,FEES"
+      },
+      {
+        "tag": "48",
+        "sample data": "0140011\n\n014001M",
+        "name": "ADDITIONAL DATA, PRIVATE"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "54a",
+        "sample data": "040",
+        "name": "ADDITIONAL AMT. LENGTH"
+      },
+      {
+        "tag": "54b",
+        "sample data": "0091840С0000000001000092\n\n840С000000000200",
+        "name": "ADDITIONAL AMOUNT"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "56",
+        "sample data": "0010330129Q1HJZ28RKA1EB\n\nL470G9XYG90R5D3E",
+        "name": "PAYMENT ACCOUNT DATA"
+      },
+      {
+        "tag": "62",
+        "sample data": "Call Issuer",
+        "name": "CUSTOMER DEFINED RESPONSE"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "utility_payment_response",
+    "mti": "0210",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0210",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "E23000000E858201",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640123",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "50x000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "38",
+        "sample data": "000000",
+        "name": "APPROVAL NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "46",
+        "sample data": "00840D0000000061000000D0\n\n0000000840",
+        "name": "AMOUNTS,FEES"
+      },
+      {
+        "tag": "48",
+        "sample data": "006010JOHN SMITH",
+        "name": "ADDITIONAL DATA, PRIVATE"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "56",
+        "sample data": "0010330129Q1HJZ28RKA1EB L470G9XYG90R5D3E",
+        "name": "PAYMENT ACCOUNT DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      },
+      {
+        "tag": "",
+        "sample data": "",
+        "name": ""
+      },
+      {
+        "tag": "",
+        "sample data": "",
+        "name": ""
+      }
+    ]
+  },
+  {
+    "name": "p2p_transfer_merchant_initiated_p2p_transfer_response",
+    "mti": "0210",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0210",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "E23000000E858201",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640123",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "49x000 or 590000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE\n\nNUMBER"
+      },
+      {
+        "tag": "38",
+        "sample data": "000000",
+        "name": "APPROVAL NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "46",
+        "sample data": "00840D0000000061000000D0\n\n0000000840",
+        "name": "AMOUNTS,FEES"
+      },
+      {
+        "tag": "48",
+        "sample data": "006010JOHN SMITH",
+        "name": "ADDITIONAL DATA, PRIVATE"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "56",
+        "sample data": "0010330129Q1HJZ28RKA1EB L470G9XYG90R5D3E",
+        "name": "PAYMENT ACCOUNT DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "p2p_credit_response",
+    "mti": "0210",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0210",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "E23000000E858201",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640123",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "29x000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE\n\nNUMBER"
+      },
+      {
+        "tag": "38",
+        "sample data": "000000",
+        "name": "APPROVAL NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "46",
+        "sample data": "00840D0000000061000000D0\n\n0000000840",
+        "name": "AMOUNTS,FEES"
+      },
+      {
+        "tag": "48",
+        "sample data": "",
+        "name": "ADDITIONAL DATA, PRIVATE"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "56",
+        "sample data": "0010330129Q1HJZ28RKA1EB L470G9XYG90R5D3E",
+        "name": "PAYMENT ACCOUNT DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "cash_advance_response",
+    "mti": "0210",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0210",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "723000000E808000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640123",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "01x000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "TIME, LOCAL TXN"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "38",
+        "sample data": "000000",
+        "name": "APPROVAL NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "46",
+        "sample data": "00840D0000000061000000D0\n\n0000000840",
+        "name": "AMOUNTS,FEES"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "56",
+        "sample data": "0010330129Q1HJZ28RKA1EB\n\nL470G9XYG90R5D3E",
+        "name": "PAYMENT ACCOUNT DATA"
+      },
+      {
+        "tag": "62",
+        "sample data": "Call Issuer",
+        "name": "CUSTOMER DEFINED RESPONSE"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "pre_authorization_response",
+    "mti": "0210",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0210",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "723000000E808000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640123",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "93x000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "38",
+        "sample data": "000000",
+        "name": "APPROVAL NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "46",
+        "sample data": "00840D0000000061000000D0\n\n0000000840",
+        "name": "AMOUNTS,FEES"
+      },
+      {
+        "tag": "48",
+        "sample data": "014001M",
+        "name": "ADDITIONAL DATA, PRIVATE"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "56",
+        "sample data": "0010330129Q1HJZ28RKA1EB L470G9XYG90R5D3E",
+        "name": "PAYMENT ACCOUNT DATA"
+      },
+      {
+        "tag": "62",
+        "sample data": "Call Issuer",
+        "name": "CUSTOMER DEFINED RESPONSE"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "pre_authorization_completion_response",
+    "mti": "0210",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0210",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "7230000006808000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640123",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "94x000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM"
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "38",
+        "sample data": "000000",
+        "name": "APPROVAL NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "46",
+        "sample data": "00840D0000000061000000D0\n\n0000000840",
+        "name": "AMOUNTS,FEES"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "56",
+        "sample data": "0010330129Q1HJZ28RKA1EB L470G9XYG90R5D3E",
+        "name": "PAYMENT ACCOUNT DATA"
+      },
+      {
+        "tag": "62",
+        "sample data": "Call Issuer",
+        "name": "CUSTOMER DEFINED RESPONSE"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "purchase_with_cashback_response",
+    "mti": "0210",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0210",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "723000000E808400",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640123",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "09x000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000300",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM"
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE &TIME, LOCAL TXN"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE\n\nNUMBER"
+      },
+      {
+        "tag": "38",
+        "sample data": "000000",
+        "name": "APPROVAL NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "46",
+        "sample data": "00840D0000000061000000D0\n\n0000000840",
+        "name": "AMOUNTS,FEES"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "54a",
+        "sample data": "020-040",
+        "name": "ADDITIONAL AMT. LENGTH"
+      },
+      {
+        "tag": "54b",
+        "sample data": "0040810C000000000100\n\n0057810C000000000200",
+        "name": "ADDITIONAL AMT."
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "56",
+        "sample data": "0010330129Q1HJZ28RKA1EB\n\nL470G9XYG90R5D3E",
+        "name": "PAYMENT ACCOUNT DATA"
+      },
+      {
+        "tag": "62",
+        "sample data": "Call Issuer",
+        "name": "CUSTOMER DEFINED RESPONSE"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "return_refund_response",
+    "mti": "0210",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0210",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "723000000E808000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640123",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "20x000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM"
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE &TIME, LOCAL TXN"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "38",
+        "sample data": "000000",
+        "name": "APPROVAL NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "46",
+        "sample data": "00840D0000000061000000D0\n\n0000000840",
+        "name": "AMOUNTS,FEES"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "56",
+        "sample data": "0010330129Q1HJZ28RKA1EB L470G9XYG90R5D3E",
+        "name": "PAYMENT ACCOUNT DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "return_cancellation_response",
+    "mti": "0210",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0210",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "723000000E808000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640123",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "20x000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM"
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE &TIME, LOCAL TXN"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "38",
+        "sample data": "000000",
+        "name": "APPROVAL NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "46",
+        "sample data": "00840D0000000061000000D0\n\n0000000840",
+        "name": "AMOUNTS,FEES"
+      },
+      {
+        "tag": "48",
+        "sample data": "1",
+        "name": "ADDITIONAL DATA, PRIVATE"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "56",
+        "sample data": "0010330129Q1HJZ28RKA1EB L470G9XYG90R5D3E",
+        "name": "PAYMENT ACCOUNT DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "pos_cash_deposit_response",
+    "mti": "0210",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0210",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "723000000E808000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640123",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "21x000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM"
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE &TIME, LOCAL TXN"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "38",
+        "sample data": "000000",
+        "name": "APPROVAL NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "46",
+        "sample data": "00840D0000000061000000 D00000000840",
+        "name": "AMOUNTS,FEES"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "56",
+        "sample data": "0010330129Q1HJZ28RKA1EB\n\nL470G9XYG90R5D3E",
+        "name": "PAYMENT ACCOUNT DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "loyalty_purchase_response",
+    "mti": "0210",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0210",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "723000000E808000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640123",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "176000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "38",
+        "sample data": "000000",
+        "name": "APPROVAL NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "46",
+        "sample data": "00840D00000000610000\n\n00D00000000840",
+        "name": "AMOUNTS,FEES"
+      },
+      {
+        "tag": "49",
+        "sample data": "999",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "funds_transfer_response",
+    "mti": "0210",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0210",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "723000000E818000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640123",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "40x0y0",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE\n\nNUMBER"
+      },
+      {
+        "tag": "38",
+        "sample data": "000000",
+        "name": "APPROVAL NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "46",
+        "sample data": "00840D0000000061000000D0\n\n0000000840",
+        "name": "AMOUNTS,FEES"
+      },
+      {
+        "tag": "48",
+        "sample data": "0140011\n\n014001M",
+        "name": "ADDITIONAL DATA, PRIVATE"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "54a",
+        "sample data": "040",
+        "name": "ADDITIONAL AMT. LENGTH"
+      },
+      {
+        "tag": "54b",
+        "sample data": "0091840С00000000010000928\n\n40С000000000200",
+        "name": "ADDITIONAL AMOUNT"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "56",
+        "sample data": "0010330129Q1HJZ28RKA1EB\n\nL470G9XYG90R5D3E",
+        "name": "PAYMENT ACCOUNT DATA"
+      },
+      {
+        "tag": "62",
+        "sample data": "Call Issuer",
+        "name": "CUSTOMER DEFINED RESPONSE"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "merchant_initiated_purchase_response",
+    "mti": "0210",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0210",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "723000000E818000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640123",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "00x000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "38",
+        "sample data": "000000",
+        "name": "APPROVAL NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "46",
+        "sample data": "00840D0000000061000000D0\n\n0000000840",
+        "name": "AMOUNTS,FEES"
+      },
+      {
+        "tag": "48",
+        "sample data": "0140011\n\n014001M",
+        "name": "ADDITIONAL DATA, PRIVATE"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "54a",
+        "sample data": "040",
+        "name": "ADDITIONAL AMT. LENGTH"
+      },
+      {
+        "tag": "54b",
+        "sample data": "0091840С00000000010000928\n\n40С000000000200",
+        "name": "ADDITIONAL AMOUNT"
+      },
+      {
+        "tag": "56",
+        "sample data": "0010330129Q1HJZ28RKA1EB L470G9XYG90R5D3E",
+        "name": "PAYMENT ACCOUNT DATA"
+      },
+      {
+        "tag": "62",
+        "sample data": "Call Issuer",
+        "name": "CUSTOMER DEFINED RESPONSE"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "tips_adjustment_response",
+    "mti": "0210",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0230",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "7230000006808000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640123",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "19x000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM"
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "38",
+        "sample data": "000000",
+        "name": "APPROVAL NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "46",
+        "sample data": "00840D0000000061000000D0\n\n0000000840",
+        "name": "AMOUNTS,FEES"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "62",
+        "sample data": "Call Issuer",
+        "name": "CUSTOMER DEFINED RESPONSE"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "manual_purchase_response",
+    "mti": "0210",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0210",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "723000000E808000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640123",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "00x000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "38",
+        "sample data": "000000",
+        "name": "APPROVAL NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "46",
+        "sample data": "00840D0000000061000000 D00000000840",
+        "name": "AMOUNTS,FEES"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "manual_fallback_purchase_response",
+    "mti": "0210",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0210",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "723000000E808000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640123",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "00x000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "38",
+        "sample data": "000000",
+        "name": "APPROVAL NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "46",
+        "sample data": "00840D0000000061000000 D00000000840",
+        "name": "AMOUNTS,FEES"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "purchase_cash_advance_purchase_with_cashback_return_pos_cash_deposit_trickle_feed_request",
+    "mti": "0220",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0220",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "*",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640",
+        "name": "PRIMARY ACCOUNT NUMBER"
+      },
+      {
+        "tag": "3",
+        "sample data": "yyx000",
+        "name": "PROCESSING CODE (FINANCIAL TRANSACTION)"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640",
+        "name": "PRIMARY ACCOUNT NUMBER"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM"
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "14",
+        "sample data": "991231",
+        "name": "EXPIRATION DATE"
+      },
+      {
+        "tag": "22",
+        "sample data": "021",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "200",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00 or 02",
+        "name": "POS CONDITION CODE"
+      },
+
+      {
+        "tag": "35",
+        "sample data": "54233900074112640=9912330\n\n00123410000",
+        "name": "TRACK 2 DATA"
+      },
+      {
+        "tag": "38",
+        "sample data": "000000",
+        "name": "APPROVAL NUMBER"
+      },
+      {
+        "tag": "",
+        "sample data": "",
+        "name": ""
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "48",
+        "sample data": "ans 999",
+        "name": "ADDITIONAL DATA, PRIVATE"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "52",
+        "sample data": "34.56.7F.5F.23.F4.F3.8B",
+        "name": "PIN BLOCK (ENCRYPTED)"
+      },
+      {
+        "tag": "54a",
+        "sample data": "012",
+        "name": "ADDITIONAL AMT. LENGTH"
+      },
+      {
+        "tag": "54b",
+        "sample data": "000000000100",
+        "name": "ADDITIONAL AMOUNT"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "issuer_driven_installment_confirmation_request",
+    "mti": "0220",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0220",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "7230058020C19000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "5423390007411264012",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "00x000",
+        "name": "PROCESSING CODE\n\n(FINANCIAL TRANSACTION)"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE NO."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "14",
+        "sample data": "201231",
+        "name": "EXPIRATION DATE"
+      },
+      {
+        "tag": "22",
+        "sample data": "021 or 010",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "200",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00 or 02",
+        "name": "POS CONDITION CODE"
+      },
+
+      {
+        "tag": "35",
+        "sample data": "54233900074112640=9912330\n\n00123410000",
+        "name": "TRACK 2 DATA"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "48",
+        "sample data": "019001I02000210",
+        "name": "ADDITIONAL DATA, PRIVATE"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "purchase_cash_advance_purchase_with_cashback_return_pos_cash_deposit_trickle_feed_response",
+    "mti": "0230",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0230",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "*",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640123",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "yyx000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM"
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "38",
+        "sample data": "000000",
+        "name": "APPROVAL NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "46",
+        "sample data": "00840D0000000061000000D0\n\n0000000840",
+        "name": "AMOUNTS,FEES"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "54a",
+        "sample data": "012",
+        "name": "ADDITIONAL AMT. LENGTH"
+      },
+      {
+        "tag": "54b",
+        "sample data": "000000000100",
+        "name": "ADDITIONAL AMOUNT"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "issuer_driven_installment_confirmation_response",
+    "mti": "0230",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0230",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "723000000E818000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640123",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "00x000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE\n\nNUMBER"
+      },
+      {
+        "tag": "38",
+        "sample data": "000000",
+        "name": "APPROVAL NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "46",
+        "sample data": "00840D0000000061000000D0\n\n0000000840",
+        "name": "AMOUNTS,FEES"
+      },
+      {
+        "tag": "48",
+        "sample data": "0140011\n\n014001M",
+        "name": "ADDITIONAL DATA, PRIVATE"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "stop_list_inquiry_request",
+    "mti": "0300",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0300",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "2230000000C00001",
+        "name": "BITMAP"
+      },
+      {
+        "tag": "3",
+        "sample data": "980000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "7",
+        "sample data": "0503124415",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE NO."
+      },
+      {
+        "tag": "12",
+        "sample data": "180503124400",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "dcc_availability_request",
+    "mti": "0300",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0300",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "3230058020C09000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "5423390007411264012",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "xxyyzz",
+        "name": "PROCESSING CODE (FINANCIAL TRANSACTION)"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000010000",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE NO."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "22",
+        "sample data": "021",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "301",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00 or 02",
+        "name": "POS CONDITION CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "49",
+        "sample data": "643",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "stop_list_inquiry_response",
+    "mti": "0310",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0310",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "2230000002820001",
+        "name": "BITMAP"
+      },
+      {
+        "tag": "3",
+        "sample data": "980000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "7",
+        "sample data": "0503124415",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM."
+      },
+      {
+        "tag": "12",
+        "sample data": "180503124400",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "47a",
+        "sample data": "00058",
+        "name": "FIELD 47 LENGTH"
+      },
+      {
+        "tag": "47b",
+        "sample data": "001000504000010000000",
+        "name": "PROPRIETARY FIELD"
+      },
+      {
+        "tag": "",
+        "sample data": "001;4000010000000002;4",
+        "name": ""
+      },
+      {
+        "tag": "",
+        "sample data": "000010000000003",
+        "name": ""
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "dcc_availability_response",
+    "mti": "0310",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0210",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "723000000E808000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640123",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "xxyyzz",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000010000",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "49",
+        "sample data": "643",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "54a",
+        "sample data": "020",
+        "name": "ADDITIONAL AMT. LENGTH"
+      },
+      {
+        "tag": "54b",
+        "sample data": "0060840С000000000100",
+        "name": "ADDITIONAL AMOUNT"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "batch_upload",
+    "mti": "0320",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0320",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640",
+        "name": "PRIMARY ACCOUNT NUMBER"
+      },
+      {
+        "tag": "3",
+        "sample data": "xxyyzz",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE NO."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "14",
+        "sample data": "991231",
+        "name": "EXPIRATION DATE"
+      },
+      {
+        "tag": "22",
+        "sample data": "021",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "200",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00 or 02",
+        "name": "POS CONDITION CODE"
+      },
+      {
+        "tag": "35",
+        "sample data": "54233900074112640=99123\n\n3000123410000",
+        "name": "TRACK 2 DATA"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "52",
+        "sample data": "34.56.77.9B.23.F4.F5.8B",
+        "name": "PIN BLOCK (ENCRYPTED)"
+      },
+      {
+        "tag": "54a",
+        "sample data": "012",
+        "name": "ADDITIONAL AMT. LENGTH"
+      },
+      {
+        "tag": "54b",
+        "sample data": "000000000100",
+        "name": "ADDITIONAL AMOUNT"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "batch_upload_response",
+    "mti": "0330",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0330",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640",
+        "name": "PRIMARY ACCOUNT NUMBER"
+      },
+      {
+        "tag": "3",
+        "sample data": "xxyy00",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE NO."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "purchase_reversal_request",
+    "mti": "0400",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0400",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "3230058028C08000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640",
+        "name": "PRIMARY ACCOUNT NUMBER"
+      },
+      {
+        "tag": "3",
+        "sample data": "00x000",
+        "name": "PROCESSING CODE (FINANCIAL TRANSACTION)"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM"
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "22",
+        "sample data": "021",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "400",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00 or 02",
+        "name": "POS CONDITION CODE"
+      },
+
+      {
+        "tag": "35",
+        "sample data": "54233900074112640=991233\n\n000123410000",
+        "name": "TRACK 2 DATA"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "48",
+        "sample data": "",
+        "name": "ADDITIONAL DATA, PRIVATE"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      },
+      {
+        "tag": "95",
+        "sample data": "000000000090",
+        "name": "REPLACEMENT AMOUNTS"
+      },
+      {
+        "tag": "128",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "SECONDARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "cash_advance_reversal_request",
+    "mti": "0400",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0400",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "3230058028C08000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640",
+        "name": "PRIMARY ACCOUNT NUMBER"
+      },
+      {
+        "tag": "3",
+        "sample data": "01x000",
+        "name": "PROCESSING CODE (FINANCIAL TRANSACTION)"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE NO."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "22",
+        "sample data": "021",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "400",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00 or 02",
+        "name": "POS CONDITION CODE"
+      },
+
+      {
+        "tag": "35",
+        "sample data": "54233900074112640=991233\n\n000123410000",
+        "name": "TRACK 2 DATA"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE\n\nNUMBER"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "48",
+        "sample data": "",
+        "name": "ADDITIONAL DATA, PRIVATE"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      },
+      {
+        "tag": "95",
+        "sample data": "000000000090",
+        "name": "REPLACEMENT AMOUNTS"
+      },
+      {
+        "tag": "128",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "SECONDARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "return_reversal_request",
+    "mti": "0400",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0400",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "3230058028C08000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640",
+        "name": "PRIMARY ACCOUNT NUMBER"
+      },
+      {
+        "tag": "3",
+        "sample data": "20x000",
+        "name": "PROCESSING CODE\n\n(FINANCIAL TRANSACTION)"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM"
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "22",
+        "sample data": "021",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "400",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00 or 02",
+        "name": "POS CONDITION CODE"
+      },
+
+      {
+        "tag": "35",
+        "sample data": "54233900074112640=9912\n\n33000123410000",
+        "name": "TRACK 2 DATA"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "48",
+        "sample data": "",
+        "name": "ADDITIONAL DATA, PRIVATE"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      },
+      {
+        "tag": "95",
+        "sample data": "000000000090",
+        "name": "REPLACEMENT AMOUNTS"
+      },
+      {
+        "tag": "128",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "SECONDARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "pos_cash_deposit_reversal_request",
+    "mti": "0400",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0400",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "3230058028C08000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640",
+        "name": "PRIMARY ACCOUNT NUMBER"
+      },
+      {
+        "tag": "3",
+        "sample data": "21x000",
+        "name": "PROCESSING CODE (FINANCIAL TRANSACTION)"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM"
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "22",
+        "sample data": "021",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "400",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00 or 02",
+        "name": "POS CONDITION CODE"
+      },
+
+      {
+        "tag": "35",
+        "sample data": "54233900074112640=991233\n\n000123410000",
+        "name": "TRACK 2 DATA"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "48",
+        "sample data": "",
+        "name": "ADDITIONAL DATA, PRIVATE"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      },
+      {
+        "tag": "95",
+        "sample data": "000000000090",
+        "name": "REPLACEMENT AMOUNTS"
+      },
+      {
+        "tag": "128",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "SECONDARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "pre_authorization_reversal_request",
+    "mti": "0400",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0400",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "3230058028C08000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640",
+        "name": "PRIMARY ACCOUNT NUMBER"
+      },
+      {
+        "tag": "3",
+        "sample data": "93x000",
+        "name": "PROCESSING CODE (FINANCIAL TRANSACTION)"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM"
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "22",
+        "sample data": "021",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "400",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00 or 02",
+        "name": "POS CONDITION CODE"
+      },
+
+      {
+        "tag": "35",
+        "sample data": "54233900074112640=9912\n\n33000123410000",
+        "name": "TRACK 2 DATA"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "48",
+        "sample data": "",
+        "name": "ADDITIONAL DATA, PRIVATE"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      },
+      {
+        "tag": "95",
+        "sample data": "000000000090",
+        "name": "REPLACEMENT AMOUNTS"
+      },
+      {
+        "tag": "128",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "SECONDARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "pre_authorization_completion_reversal_request",
+    "mti": "0400",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0400",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "3230058028C08000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640",
+        "name": "PRIMARY ACCOUNT NUMBER"
+      },
+      {
+        "tag": "3",
+        "sample data": "94x000",
+        "name": "PROCESSING CODE (FINANCIAL TRANSACTION)"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM"
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "22",
+        "sample data": "021",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "400",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00 or 02",
+        "name": "POS CONDITION CODE"
+      },
+
+      {
+        "tag": "35",
+        "sample data": "54233900074112640=9912\n\n33000123410000",
+        "name": "TRACK 2 DATA"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "48",
+        "sample data": "",
+        "name": "ADDITIONAL DATA, PRIVATE"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      },
+      {
+        "tag": "95",
+        "sample data": "000000000090",
+        "name": "REPLACEMENT AMOUNTS"
+      },
+      {
+        "tag": "128",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "SECONDARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "pin_change_reversal_request",
+    "mti": "0400",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0400",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "3230058020C09000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640",
+        "name": "PRIMARY ACCOUNT NUMBER"
+      },
+      {
+        "tag": "3",
+        "sample data": "790000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000000",
+        "name": "AMOUNT, TRANSACTION"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE NO."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "14",
+        "sample data": "991231",
+        "name": "EXPIRATION DATE"
+      },
+      {
+        "tag": "22",
+        "sample data": "021",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "100",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00 or 02",
+        "name": "POS CONDITION CODE"
+      },
+
+      {
+        "tag": "35",
+        "sample data": "54233900074112640=9912330\n\n00123410000",
+        "name": "TRACK 2 DATA"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "48",
+        "sample data": "30.30.32.30.30.38.34.56.F4.3B.\n\n6E.D2.77.8B",
+        "name": "ADDITIONAL DATA, PRIVATE"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "automatic_reversal_request",
+    "mti": "0400",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0400",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "3230058020C08000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640",
+        "name": "PRIMARY ACCOUNT NUMBER"
+      },
+      {
+        "tag": "3",
+        "sample data": "xxxxxx",
+        "name": "PROCESSING CODE (FINANCIAL TRANSACTION)"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM"
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "22",
+        "sample data": "021",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "400",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00 or 02",
+        "name": "POS CONDITION CODE"
+      },
+      {
+        "tag": "35",
+        "sample data": "54233900074112640=991233\n\n000123410000",
+        "name": "TRACK 2 DATA"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "48",
+        "sample data": "",
+        "name": "ADDITIONAL DATA, PRIVATE"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "purchase_reversal_response",
+    "mti": "0410",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0410",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "723000000E808000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640123",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "00x000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM"
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETREIVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "38",
+        "sample data": "000000",
+        "name": "APPROVAL NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "cash_advance_reversal_response",
+    "mti": "0410",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0410",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "723000000E808000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640123",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "01x000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "TRANSACTION DATE & TIME"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE NO."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "38",
+        "sample data": "000000",
+        "name": "APPROVAL NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "return_reversal_response",
+    "mti": "0410",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0410",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "723000000E808000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640123",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "00x000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM"
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "38",
+        "sample data": "000000",
+        "name": "APPROVAL NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "pos_cash_deposit_reversal_response",
+    "mti": "0410",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0410",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "723000000E808000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640123",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "21x000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM"
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "38",
+        "sample data": "000000",
+        "name": "APPROVAL NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "pre_authorization_reversal_response",
+    "mti": "0410",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0410",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "723000000E808000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640123",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "93x000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM"
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETREIVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "38",
+        "sample data": "000000",
+        "name": "APPROVAL NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "pre_authorization_completion_reversal_response",
+    "mti": "0410",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0410",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "723000000E808000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640123",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "94x000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM"
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETREIVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "38",
+        "sample data": "000000",
+        "name": "APPROVAL NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "pin_change_response",
+    "mti": "0410",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0410",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "723000000E808000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "5423390007411264012",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "790000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000000",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE NO."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "38",
+        "sample data": "000000",
+        "name": "APPROVAL NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "55",
+        "sample data": "b 255",
+        "name": "EMV DATA"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "automatic_reversal_response",
+    "mti": "0410",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0410",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "723000000E808000",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640123",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "xxxxxx",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE AUDIT NUM"
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "38",
+        "sample data": "000000",
+        "name": "APPROVAL NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "reversal_trickle_feed_request",
+    "mti": "0420",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0420",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "*",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640",
+        "name": "PRIMARY ACCOUNT NUMBER"
+      },
+      {
+        "tag": "3",
+        "sample data": "yyx000",
+        "name": "PROCESSING CODE (FINANCIAL TRANSACTION)"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE NO."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL"
+      },
+      {
+        "tag": "22",
+        "sample data": "021",
+        "name": "POS ENTRY MODE"
+      },
+      {
+        "tag": "24",
+        "sample data": "400",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "25",
+        "sample data": "00 or 02",
+        "name": "POS CONDITION CODE"
+      },
+
+      {
+        "tag": "35",
+        "sample data": "54233900074112640=9912\n\n33000123410000",
+        "name": "TRACK 2 DATA"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "48",
+        "sample data": "",
+        "name": "ADDITIONAL DATA, PRIVATE"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "54a",
+        "sample data": "012",
+        "name": "ADDITIONAL AMT. LENGTH"
+      },
+      {
+        "tag": "54b",
+        "sample data": "000000000100",
+        "name": "ADDITIONAL AMOUNT"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      },
+      {
+        "tag": "95",
+        "sample data": "000000000090",
+        "name": "REPLACEMENT AMOUNTS"
+      },
+      {
+        "tag": "128",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "SECONDARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "reversal_trickle_feed_response",
+    "mti": "0430",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0430",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "*",
+        "name": "BITMAP"
+      },
+
+      {
+        "tag": "2",
+        "sample data": "54233900074112640123",
+        "name": "PAN"
+      },
+      {
+        "tag": "3",
+        "sample data": "yyx000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "4",
+        "sample data": "000000000100",
+        "name": "TRANSACTION AMOUNT"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEM TRACE NO."
+      },
+      {
+        "tag": "12",
+        "sample data": "980706102034",
+        "name": "DATE & TIME, LOCAL TXN"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "38",
+        "sample data": "000000",
+        "name": "APPROVAL NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "49",
+        "sample data": "810",
+        "name": "CURRENCY CODE"
+      },
+      {
+        "tag": "54a",
+        "sample data": "012",
+        "name": "ADDITIONAL ATM. LENGTH"
+      },
+      {
+        "tag": "54b",
+        "sample data": "000000000100",
+        "name": "ADDITIONAL AMOUNT"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "acquirer_reconciliation_advice",
+    "mti": "0520",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0520",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "0822010000C00000",
+        "name": "BITMAP"
+      },
+      {
+        "tag": "5",
+        "sample data": "C000000500000",
+        "name": "Amount, Settlement"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "Systems Trace Audit Number"
+      },
+      {
+        "tag": "15",
+        "sample data": "981002",
+        "name": "Date, Settlement"
+      },
+      {
+        "tag": "24",
+        "sample data": "504",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00009202",
+        "name": "Card Acceptor Terminal ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "000002222222222",
+        "name": "Merchant ID"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "acquirer_reconciliation_trailer",
+    "mti": "0520",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0520",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "0822010000C00000",
+        "name": "BITMAP"
+      },
+      {
+        "tag": "3",
+        "sample data": "910000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "Systems Trace Audit Number"
+      },
+      {
+        "tag": "15",
+        "sample data": "981002",
+        "name": "Date, Settlement"
+      },
+      {
+        "tag": "24",
+        "sample data": "504",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00009202",
+        "name": "Card Acceptor Terminal ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "000002222222222",
+        "name": "Merchant ID"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "acquirer_reconciliation_advice_response()",
+    "mti": "0530",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0530",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "082200040E900000",
+        "name": "BITMAP"
+      },
+      {
+        "tag": "5",
+        "sample data": "C000000500000",
+        "name": "Amount, Settlement"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "Systems Trace Audit Number"
+      },
+      {
+        "tag": "15",
+        "sample data": "981002",
+        "name": "Date, Settlement"
+      },
+      {
+        "tag": "30",
+        "sample data": "000000400000",
+        "name": "Amount, Original Settlement"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "38",
+        "sample data": "001000",
+        "name": "Approval Code"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "Action Code"
+      },
+      {
+        "tag": "41",
+        "sample data": "00000010",
+        "name": "Card Acceptor Terminal ID"
+      },
+      {
+        "tag": "44",
+        "sample data": "INVALID",
+        "name": "Additional Response Data"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "acquirer_reconciliation_trailer_response",
+    "mti": "0530",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0530",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "082200040E900000",
+        "name": "BITMAP"
+      },
+      {
+        "tag": "3",
+        "sample data": "910000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "Systems Trace Audit Number"
+      },
+      {
+        "tag": "15",
+        "sample data": "981002",
+        "name": "Date, Settlement"
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "Action Code"
+      },
+      {
+        "tag": "41",
+        "sample data": "00009202",
+        "name": "Card Acceptor Terminal ID"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "network_management:_merchant_log_on_request",
+    "mti": "0800",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0800",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "2220010000800000",
+        "name": "BITMAP"
+      },
+      {
+        "tag": "3",
+        "sample data": "900000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102034",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEMS TRACE AUDIT NUM."
+      },
+      {
+        "tag": "24",
+        "sample data": "801",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      }
+    ]
+  },
+  {
+    "name": "network_management:_merchant_log_off_request",
+    "mti": "0800",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0800",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "2220010000800000",
+        "name": "BITMAP"
+      },
+      {
+        "tag": "3",
+        "sample data": "920000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102034",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEMS TRACE AUDIT NUM."
+      },
+      {
+        "tag": "24",
+        "sample data": "802",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      }
+    ]
+  },
+  {
+    "name": "_echo_test",
+    "mti": "0800",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0800",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "2220010000800000",
+        "name": "BITMAP"
+      },
+      {
+        "tag": "3",
+        "sample data": "990000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102034",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEMS TRACE AUDIT NUM."
+      },
+      {
+        "tag": "24",
+        "sample data": "831",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      }
+    ]
+  },
+  {
+    "name": "network_key_change_request",
+    "mti": "0800",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0800",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "2220010000800000",
+        "name": "BITMAP"
+      },
+      {
+        "tag": "3",
+        "sample data": "990000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102034",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEMS TRACE AUDIT NUM."
+      },
+      {
+        "tag": "24",
+        "sample data": "811",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "63",
+        "sample data": "010001004005F",
+        "name": "Private Data"
+      },
+      {
+        "tag": "64",
+        "sample data": "3E.45.B5.66.7F.2A.FF.B3",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "network_mac_key_change_request",
+    "mti": "0800",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0800",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "2220010000800000",
+        "name": "BITMAP"
+      },
+      {
+        "tag": "3",
+        "sample data": "990000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102034",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEMS TRACE AUDIT NUM."
+      },
+      {
+        "tag": "24",
+        "sample data": "815",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "63",
+        "sample data": "010001004005F",
+        "name": "Private Data"
+      }
+    ]
+  },
+  {
+    "name": "network_cutover_request",
+    "mti": "0800",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0800",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "2220010000800000",
+        "name": "BITMAP"
+      },
+      {
+        "tag": "3",
+        "sample data": "990000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102034",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEMS TRACE AUDIT NUM."
+      },
+      {
+        "tag": "24",
+        "sample data": "821",
+        "name": "FUNCTION CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "42",
+        "sample data": "123456789012345",
+        "name": "MERCHANT ID"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "network_management:_merchant_log_on_response",
+    "mti": "0810",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0810",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "222000000A800000",
+        "name": "BITMAP"
+      },
+      {
+        "tag": "3",
+        "sample data": "900000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEMS TRACE AUDIT NUM."
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      }
+    ]
+  },
+  {
+    "name": "network_management:_merchant_log_off_response",
+    "mti": "0810",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0810",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "222000000A800000",
+        "name": "BITMAP"
+      },
+      {
+        "tag": "3",
+        "sample data": "920000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102042",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEMS TRACE AUDIT NUM."
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      }
+    ]
+  },
+  {
+    "name": "network_management_response_(echo_test)",
+    "mti": "0810",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0800",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "222000000A800000",
+        "name": "BITMAP"
+      },
+      {
+        "tag": "3",
+        "sample data": "990000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102034",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEMS TRACE AUDIT NUM."
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      }
+    ]
+  },
+  {
+    "name": "network_key_change_response",
+    "mti": "0810",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0800",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "222000000A800800",
+        "name": "BITMAP"
+      },
+      {
+        "tag": "3",
+        "sample data": "990000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102034",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEMS TRACE AUDIT NUM."
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "53a",
+        "sample data": "16",
+        "name": "COMMUNICATION KEY LENGTH"
+      },
+      {
+        "tag": "53b",
+        "sample data": "3E.45.B5.66.7F.2A.FF.B3",
+        "name": "COMMUNICATION KEY"
+      },
+      {
+        "tag": "63",
+        "sample data": "060001004005F0020032",
+        "name": "Private Data"
+      },
+      {
+        "tag": "",
+        "sample data": "0123456789ABCDF0123",
+        "name": ""
+      },
+      {
+        "tag": "",
+        "sample data": "4567890ABCDF0030061",
+        "name": ""
+      },
+      {
+        "tag": "",
+        "sample data": "23456",
+        "name": ""
+      },
+      {
+        "tag": "64",
+        "sample data": "00.01.02.03.04.05.06.07",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  },
+  {
+    "name": "network_mac_key_change_response",
+    "mti": "0810",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0800",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "222000000A800800",
+        "name": "BITMAP"
+      },
+      {
+        "tag": "3",
+        "sample data": "990000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102034",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEMS TRACE AUDIT NUM."
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "53a",
+        "sample data": "16",
+        "name": "MAC KEY LENGTH"
+      },
+      {
+        "tag": "53b",
+        "sample data": "3E.45.B5.66.7F.2A.FF.B3",
+        "name": "MAC KEY"
+      },
+      {
+        "tag": "63",
+        "sample data": "060001004005F0020032\n\n0123456789ABCDF0123\n\n4567890ABCDF0030061\n\n23456",
+        "name": "Private Data"
+      }
+    ]
+  },
+  {
+    "name": "network_cutover_response",
+    "mti": "0810",
+    "dataElements": [
+      {
+        "tag": "-",
+        "sample data": "0800",
+        "name": "MESS. TYPE ID"
+      },
+      {
+        "tag": "-",
+        "sample data": "222000000A800000",
+        "name": "BITMAP"
+      },
+      {
+        "tag": "3",
+        "sample data": "990000",
+        "name": "PROCESSING CODE"
+      },
+      {
+        "tag": "7",
+        "sample data": "0706102034",
+        "name": "DATE & TIME, TRANSMISSION"
+      },
+      {
+        "tag": "11",
+        "sample data": "000001",
+        "name": "SYSTEMS TRACE AUDIT NUM."
+      },
+      {
+        "tag": "37",
+        "sample data": "000001007050",
+        "name": "RETRIEVAL REFERENCE NUMBER"
+      },
+      {
+        "tag": "39",
+        "sample data": "000",
+        "name": "RESPONSE CODE"
+      },
+      {
+        "tag": "41",
+        "sample data": "00010001",
+        "name": "TERMINAL ID"
+      },
+      {
+        "tag": "64",
+        "sample data": "01.02.03.04.05.06.07.08",
+        "name": "PRIMARY MAC DATA"
+      }
+    ]
+  }
+]

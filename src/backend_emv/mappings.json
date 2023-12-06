@@ -1,0 +1,4868 @@
+[
+  {
+    "tag": "06",
+    "name": "Object Identifier (OID)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "41",
+    "name": "Country code and national data",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "42",
+    "name": "Issuer Identification Number (IIN)",
+    "type": "n",
+    "length": "3"
+  },
+  {
+    "tag": "42",
+    "name": "Issuer Identification Number (IIN)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "43",
+    "name": "Card service data",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "44",
+    "name": "Initial access data",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "45",
+    "name": "Card issuer`s data",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "46",
+    "name": "Pre-issuing data",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "47",
+    "name": "Card capabilities",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "48",
+    "name": "Status information",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "4D",
+    "name": "Extended header list",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "4F",
+    "name": "Application Identifier (ADF Name)",
+    "type": "b",
+    "length": "16"
+  },
+  {
+    "tag": "50",
+    "name": "Application Label",
+    "type": "ans",
+    "length": "16"
+  },
+  {
+    "tag": "50",
+    "name": "Application Label",
+    "type": "ans",
+    "length": "16"
+  },
+  {
+    "tag": "50",
+    "name": "Application Label",
+    "type": "ans",
+    "length": "16"
+  },
+  {
+    "tag": "51",
+    "name": "Path",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "52",
+    "name": "Command to perform",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "53",
+    "name": "Discretionary data, discretionary template",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "56",
+    "name": "Track 1 Data",
+    "type": "ans",
+    "length": "76"
+  },
+  {
+    "tag": "56",
+    "name": "Track 1 Equivalent Data",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "57",
+    "name": "Track 2 Equivalent Data",
+    "type": "b",
+    "length": "19"
+  },
+  {
+    "tag": "57",
+    "name": "Track 2 Equivalent Data",
+    "type": "b",
+    "length": "19"
+  },
+  {
+    "tag": "57",
+    "name": "Track 2 Equivalent Data",
+    "type": "b",
+    "length": "19"
+  },
+  {
+    "tag": "57",
+    "name": "Track 2 Equivalent Data",
+    "type": "cn",
+    "length": "19"
+  },
+  {
+    "tag": "57",
+    "name": "Track 2 Equivalent Data",
+    "type": "b",
+    "length": "19"
+  },
+  {
+    "tag": "58",
+    "name": "Track 3 Equivalent Data",
+    "type": "b",
+    "length": ""
+  },
+  {
+    "tag": "59",
+    "name": "Card expiration date",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5A",
+    "name": "Application Primary Account Number (PAN)",
+    "type": "cn variable up to 19",
+    "length": "10"
+  },
+  {
+    "tag": "5A",
+    "name": "Application Primary Account Number (PAN)",
+    "type": "cn variable up to 19",
+    "length": "10"
+  },
+  {
+    "tag": "5A",
+    "name": "Application Primary Account Number (PAN)",
+    "type": "cn variable up to 19",
+    "length": "var. up to 10"
+  },
+  {
+    "tag": "5A",
+    "name": "Application Primary Account Number (PAN)",
+    "type": "cn variable up to 19",
+    "length": "var. up to 10"
+  },
+  {
+    "tag": "5B",
+    "name": "Name of an individual",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5C",
+    "name": "Tag list",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5D",
+    "name": "Deleted (see 9D)",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "5D",
+    "name": "Header list",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5E",
+    "name": "Proprietary login data",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5F20",
+    "name": "Cardholder Name",
+    "type": "ans",
+    "length": "26"
+  },
+  {
+    "tag": "5F20",
+    "name": "Cardholder Name",
+    "type": "ans",
+    "length": "26"
+  },
+  {
+    "tag": "5F20",
+    "name": "Cardholder Name",
+    "type": "ans",
+    "length": "26"
+  },
+  {
+    "tag": "5F20",
+    "name": "Cardholder Name",
+    "type": "ans",
+    "length": "26"
+  },
+  {
+    "tag": "5F21",
+    "name": "Track 1, identical to the data coded",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5F22",
+    "name": "Track 2, identical to the data coded",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5F23",
+    "name": "Track 3, identical to the data coded",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5F24",
+    "name": "Application Expiration Date",
+    "type": "n",
+    "length": "3"
+  },
+  {
+    "tag": "5F24",
+    "name": "Application Expiration Date",
+    "type": "n",
+    "length": "3"
+  },
+  {
+    "tag": "5F24",
+    "name": "Application Expiration Date",
+    "type": "n",
+    "length": "3"
+  },
+  {
+    "tag": "5F24",
+    "name": "Application Expiration Date",
+    "type": "n",
+    "length": "3"
+  },
+  {
+    "tag": "5F25",
+    "name": "Application Effective Date",
+    "type": "n",
+    "length": "3"
+  },
+  {
+    "tag": "5F25",
+    "name": "Application Effective Date",
+    "type": "n",
+    "length": "3"
+  },
+  {
+    "tag": "5F25",
+    "name": "Application Effective Date",
+    "type": "n",
+    "length": "3"
+  },
+  {
+    "tag": "5F26",
+    "name": "Date, Card Effective",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5F27",
+    "name": "Interchange control",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5F28",
+    "name": "Issuer Country Code",
+    "type": "n",
+    "length": "2"
+  },
+  {
+    "tag": "5F28",
+    "name": "Issuer Country Code",
+    "type": "n",
+    "length": "2"
+  },
+  {
+    "tag": "5F28",
+    "name": "Issuer Country Code",
+    "type": "n",
+    "length": "2"
+  },
+  {
+    "tag": "5F28",
+    "name": "Issuer Country Code",
+    "type": "n",
+    "length": "2"
+  },
+  {
+    "tag": "5F29",
+    "name": "Interchange profile",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5F2A",
+    "name": "Transaction Currency Code",
+    "type": "n",
+    "length": "2"
+  },
+  {
+    "tag": "5F2A",
+    "name": "Transaction Currency Code",
+    "type": "n",
+    "length": "2"
+  },
+  {
+    "tag": "5F2A",
+    "name": "Transaction Currency Code",
+    "type": "n",
+    "length": "2"
+  },
+  {
+    "tag": "5F2A",
+    "name": "Transaction Currency Code",
+    "type": "n",
+    "length": "2"
+  },
+  {
+    "tag": "5F2A",
+    "name": "Transaction Currency Code",
+    "type": "n",
+    "length": "2"
+  },
+  {
+    "tag": "5F2B",
+    "name": "Date of birth",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5F2C",
+    "name": "Cardholder nationality",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5F2D",
+    "name": "Language Preference",
+    "type": "an",
+    "length": "8"
+  },
+  {
+    "tag": "5F2D",
+    "name": "Language Preference",
+    "type": "an",
+    "length": "8"
+  },
+  {
+    "tag": "5F2D",
+    "name": "Language Preference",
+    "type": "an",
+    "length": "8"
+  },
+  {
+    "tag": "5F2E",
+    "name": "Cardholder biometric data",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5F2F",
+    "name": "PIN usage policy",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5F30",
+    "name": "Service Code",
+    "type": "n",
+    "length": "2"
+  },
+  {
+    "tag": "5F30",
+    "name": "Service Code",
+    "type": "n",
+    "length": "2"
+  },
+  {
+    "tag": "5F32",
+    "name": "Transaction counter",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5F33",
+    "name": "Date, Transaction",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5F34",
+    "name": "Application Primary Account Number (PAN) Sequence Number (PSN)",
+    "type": "n",
+    "length": "1"
+  },
+  {
+    "tag": "5F34",
+    "name": "Application Primary Account Number (PAN) Sequence Number (PSN)",
+    "type": "n",
+    "length": "1"
+  },
+  {
+    "tag": "5F34",
+    "name": "Application Primary Account Number (PAN) Sequence Number (PSN)",
+    "type": "n",
+    "length": "1"
+  },
+  {
+    "tag": "5F34",
+    "name": "Application Primary Account Number (PAN) Sequence Number (PSN)",
+    "type": "n",
+    "length": "1"
+  },
+  {
+    "tag": "5F34",
+    "name": "Application Primary Account Number (PAN) Sequence Number (PSN)",
+    "type": "n",
+    "length": "1"
+  },
+  {
+    "tag": "5F35",
+    "name": "Sex (ISO 5218)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5F36",
+    "name": "Transaction Currency Exponent",
+    "type": "n",
+    "length": "1"
+  },
+  {
+    "tag": "5F36",
+    "name": "Transaction Currency Exponent",
+    "type": "n",
+    "length": "1"
+  },
+  {
+    "tag": "5F37",
+    "name": "Static internal authentication (one-step)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5F38",
+    "name": "Static internal authentication - first associated data",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5F39",
+    "name": "Static internal authentication - second associated data",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5F3A",
+    "name": "Dynamic internal authentication",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5F3B",
+    "name": "Dynamic external authentication",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5F3C",
+    "name": "Transaction Reference Currency Code",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "5F3C",
+    "name": "Dynamic mutual authentication",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5F3D",
+    "name": "Transaction Reference Currency Exponent",
+    "type": "n",
+    "length": "1"
+  },
+  {
+    "tag": "5F40",
+    "name": "Cardholder portrait image",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5F41",
+    "name": "Element list",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5F42",
+    "name": "Address",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5F43",
+    "name": "Cardholder handwritten signature image",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5F44",
+    "name": "Application image",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5F45",
+    "name": "Display message",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5F46",
+    "name": "Timer",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5F47",
+    "name": "Message reference",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5F48",
+    "name": "Cardholder private key",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5F49",
+    "name": "Cardholder public key",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5F4A",
+    "name": "Public key of certification authority",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5F4B",
+    "name": "Deprecated (see note 2 below)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5F4C",
+    "name": "Certificate holder authorization",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5F4D",
+    "name": "Integrated circuit manufacturer identifier",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5F4E",
+    "name": "Certificate content",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "5F50",
+    "name": "Issuer Uniform resource locator (URL)",
+    "type": "ans",
+    "length": "var."
+  },
+  {
+    "tag": "5F53",
+    "name": "International Bank Account Number (IBAN)",
+    "type": "variable",
+    "length": "34"
+  },
+  {
+    "tag": "5F54",
+    "name": "Bank Identifier Code (BIC)",
+    "type": "variable",
+    "length": "8 or 11"
+  },
+  {
+    "tag": "5F55",
+    "name": "Issuer Country Code (alpha2 format)",
+    "type": "a 2",
+    "length": "2"
+  },
+  {
+    "tag": "5F56",
+    "name": "Issuer Country Code (alpha3 format)",
+    "type": "a 3",
+    "length": "3"
+  },
+  {
+    "tag": "5F57",
+    "name": "Account Type",
+    "type": "n",
+    "length": "1"
+  },
+  {
+    "tag": "60",
+    "name": "Template, Dynamic Authentication",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "6080",
+    "name": "Commitment (e.g., a positive number less than the public RSA modulus in use)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "6081",
+    "name": "Challenge (e.g., a number, possibly zero, less than the public RSA exponent in use)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "6082",
+    "name": "Response (e.g., a positive number less than the public RSA modulus in use)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "6083",
+    "name": "Committed challenge (e.g., the hash-code of a commitment data object)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "6084",
+    "name": "Authentication code (e.g., the hash-code of one or more data fields and a commitment data object)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "6085",
+    "name": "Exponential (e.g., a public positive number for establishing a session key by a DH method)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "60A0",
+    "name": "Template, Identification data",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "61",
+    "name": "Application Template",
+    "type": "b",
+    "length": "var. up to 252"
+  },
+  {
+    "tag": "61",
+    "name": "Directory Entry",
+    "type": "variable",
+    "length": "var."
+  },
+  {
+    "tag": "62",
+    "name": "File Control Parameters (FCP) Template",
+    "type": "variable",
+    "length": "var. up to 252"
+  },
+  {
+    "tag": "6280",
+    "name": "Number of data bytes in the file, excluding structural information",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "6281",
+    "name": "Number of data bytes in the file, including structural information if any",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "6282",
+    "name": "File descriptor byte",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "6283",
+    "name": "File identifier",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "6284",
+    "name": "DF name",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "6285",
+    "name": "Proprietary information, primitive encoding (i.e., not coded in BER-TLV)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "6286",
+    "name": "Security attribute in proprietary format",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "6287",
+    "name": "Identifier of an EF containing an extension of the file control information",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "6288",
+    "name": "Short EF identifier",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "628A",
+    "name": "Life cycle status byte (LCS)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "628B",
+    "name": "Security attribute referencing the expanded format",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "628C",
+    "name": "Security attribute in compact format",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "628D",
+    "name": "Identifier of an EF containing security environment templates",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "62A0",
+    "name": "Template, Security attribute for data objects",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "62A1",
+    "name": "Template, Security attribute for physical interfaces",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "62A2",
+    "name": "One or more pairs of data objects, short EF identifier (tag 88) - absolute or relative path (tag 51)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "62A5",
+    "name": "Proprietary information, constructed encoding",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "62AB",
+    "name": "Security attribute in expanded format",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "62AC",
+    "name": "Identifier of a cryptographic mechanism",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "63",
+    "name": "Wrapper",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "64",
+    "name": "Template, File Management Data (FMD)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "65",
+    "name": "Cardholder related data",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "66",
+    "name": "Template, Card data",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "67",
+    "name": "Template, Authentication data",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "68",
+    "name": "Special user requirements",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "6A",
+    "name": "Template, Login",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "6A80",
+    "name": "Qualifier",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "6A81",
+    "name": "Telephone Number",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "6A82",
+    "name": "Text",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "6A83",
+    "name": "Delay indicators, for detecting an end of message",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "6A84",
+    "name": "Delay indicators, for detecting an absence of response",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "6B",
+    "name": "Template, Qualified name",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "6B06",
+    "name": "Qualified name",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "6B80",
+    "name": "Name",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "6BA0",
+    "name": "Name",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "6C",
+    "name": "Template, Cardholder image",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "6D",
+    "name": "Template, Application image",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "6E",
+    "name": "Application related data",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "6F",
+    "name": "File Control Information (FCI) Template",
+    "type": "variable",
+    "length": "252"
+  },
+  {
+    "tag": "6F",
+    "name": "File Control Information (FCI) Template",
+    "type": "variable",
+    "length": "252"
+  },
+  {
+    "tag": "6F",
+    "name": "File Control Information (FCI) Template",
+    "type": "variable",
+    "length": "252"
+  },
+  {
+    "tag": "6F",
+    "name": "Template, File Control Parameters and File Management Data (FCI)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "6FA5",
+    "name": "Template, FCI A5",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "70",
+    "name": "READ RECORD Response Message Template",
+    "type": "variable",
+    "length": "255"
+  },
+  {
+    "tag": "70",
+    "name": "READ RECORD Response Message Template",
+    "type": "variable",
+    "length": "var. up to 252"
+  },
+  {
+    "tag": "70",
+    "name": "Template, AEF Data",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "71",
+    "name": "Issuer Script Template 1",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "71",
+    "name": "Issuer Script Template 1",
+    "type": "b",
+    "length": "var. up to 128"
+  },
+  {
+    "tag": "71",
+    "name": "Template, Issuer Script 1",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7186",
+    "name": "Issuer Script Command",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "719F18",
+    "name": "Issuer Script Identifier",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "72",
+    "name": "Issuer Script Template 2",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "72",
+    "name": "Issuer Script Template 2",
+    "type": "b",
+    "length": "var. up to 128"
+  },
+  {
+    "tag": "72",
+    "name": "Template, Issuer Script 2",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "73",
+    "name": "Directory Discretionary Template",
+    "type": "variable",
+    "length": "252"
+  },
+  {
+    "tag": "77",
+    "name": "Response Message Template Format 2",
+    "type": "variable",
+    "length": "var."
+  },
+  {
+    "tag": "77",
+    "name": "Response Message Template Format 2",
+    "type": "variable",
+    "length": "var."
+  },
+  {
+    "tag": "77",
+    "name": "Response Message Template Format 2",
+    "type": "variable",
+    "length": "var."
+  },
+  {
+    "tag": "77",
+    "name": "Template, Response Message Format 2",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "78",
+    "name": "Compatible Tag Allocation Authority",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "79",
+    "name": "Coexistent Tag Allocation Authority",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7A",
+    "name": "Template, Security Support (SS)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7A80",
+    "name": "Card session counter",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7A81",
+    "name": "Session identifier",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7A82",
+    "name": "File selection counter",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7A83",
+    "name": "File selection counter",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7A84",
+    "name": "File selection counter",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7A85",
+    "name": "File selection counter",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7A86",
+    "name": "File selection counter",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7A87",
+    "name": "File selection counter",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7A88",
+    "name": "File selection counter",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7A89",
+    "name": "File selection counter",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7A8A",
+    "name": "File selection counter",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7A8B",
+    "name": "File selection counter",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7A8C",
+    "name": "File selection counter",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7A8D",
+    "name": "File selection counter",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7A8E",
+    "name": "File selection counter",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7A93",
+    "name": "Digital signature counter",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7A9F2X",
+    "name": "Internal progression value ('X'-is a specific index, e.g., an index referencing a counter of file selections)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7A9F3Y",
+    "name": "External progression value ('Y'-is a specific index, e.g., an index referencing an external time stamp)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7B",
+    "name": "Template, Security Environment (SE)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7B80",
+    "name": "SEID byte, mandatory",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7B8A",
+    "name": "LCS byte, optional",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7BAC",
+    "name": "Cryptographic mechanism identifier template, optional",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7BA4",
+    "name": "Control reference template (CRT)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7BAA",
+    "name": "Control reference template (CRT)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7BB4",
+    "name": "Control reference template (CRT)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7BB6",
+    "name": "Control reference template (CRT)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7BB8",
+    "name": "Control reference template (CRT)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7D",
+    "name": "Template, Secure Messaging (SM)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7D80",
+    "name": "Plain value not coded in BER-TLV",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7D81",
+    "name": "Plain value not coded in BER-TLV",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7D82",
+    "name": "Cryptogram (plain value coded in BER-TLV and including secure messaging data objects)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7D83",
+    "name": "Cryptogram (plain value coded in BER-TLV and including secure messaging data objects)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7D84",
+    "name": "Cryptogram (plain value coded in BER-TLV, but not including secure messaging data objects)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7D85",
+    "name": "Cryptogram (plain value coded in BER-TLV, but not including secure messaging data objects)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7D86",
+    "name": "Padding-content indicator byte followed by cryptogram (plain value not coded in BER-TLV)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7D87",
+    "name": "Padding-content indicator byte followed by cryptogram (plain value not coded in BER-TLV)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7D8E",
+    "name": "Cryptographic checksum (at least four bytes)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7D90",
+    "name": "Hash-code",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7D91",
+    "name": "Hash-code",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7D92",
+    "name": "Certificate (not BER-TLV coded data)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7D93",
+    "name": "Certificate (not BER-TLV coded data)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7D94",
+    "name": "Security environment identifier (SEID byte, see 6.5)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7D95",
+    "name": "Security environment identifier (SEID byte, see 6.5)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7D96",
+    "name": "Number Le in the unsecured command APDU (one or two bytes)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7D97",
+    "name": "Number Le in the unsecured command APDU (one or two bytes)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7D99",
+    "name": "Processing status of the secured response APDU (new SW1-SW2, two bytes)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7D9A",
+    "name": "Input data element for the computation of a digital signature (the value field is signed)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7D9B",
+    "name": "Input data element for the computation of a digital signature (the value field is signed)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7D9C",
+    "name": "Public key",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7D9D",
+    "name": "Public key",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7D9E",
+    "name": "Digital signature",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7DA0",
+    "name": "Input template for the computation of a hash-code (the template is hashed)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7DA1",
+    "name": "Input template for the computation of a hash-code (the template is hashed)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7DA2",
+    "name": "Input template for the verification of a cryptographic checksum (the template is integrated)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7DA4",
+    "name": "Control reference template for authentication (AT)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7DA5",
+    "name": "Control reference template for authentication (AT)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7DA8",
+    "name": "Input template for the verification of a digital signature (the template is signed)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7DAA",
+    "name": "Template, Control reference for hash-code (HT)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7DAB",
+    "name": "Template, Control reference for hash-code (HT)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7DAC",
+    "name": "Input template for the computation of a digital signature (the concatenated value fields are signed)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7DAD",
+    "name": "Input template for the computation of a digital signature (the concatenated value fields are signed)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7DAE",
+    "name": "Input template for the computation of a certificate (the concatenated value fields are certified)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7DAF",
+    "name": "Input template for the computation of a certificate (the concatenated value fields are certified)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7DB0",
+    "name": "Plain value coded in BER-TLV and including secure messaging data objects",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7DB1",
+    "name": "Plain value coded in BER-TLV and including secure messaging data objects",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7DB2",
+    "name": "Plain value coded in BER-TLV, but not including secure messaging data objects",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7DB3",
+    "name": "Plain value coded in BER-TLV, but not including secure messaging data objects",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7DB4",
+    "name": "Control reference template for cryptographic checksum (CCT)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7DB5",
+    "name": "Control reference template for cryptographic checksum (CCT)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7DB6",
+    "name": "Control reference template for digital signature (DST)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7DB7",
+    "name": "Control reference template for digital signature (DST)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7DB8",
+    "name": "Control reference template for confidentiality (CT)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7DB9",
+    "name": "Control reference template for confidentiality (CT)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7DBA",
+    "name": "Response descriptor template",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7DBB",
+    "name": "Response descriptor template",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7DBC",
+    "name": "Input template for the computation of a digital signature (the template is signed)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7DBD",
+    "name": "Input template for the computation of a digital signature (the template is signed)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7DBE",
+    "name": "Input template for the verification of a certificate (the template is certified)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7E",
+    "name": "Template, Nesting Interindustry data objects",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7F20",
+    "name": "Display control template",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7F21",
+    "name": "Cardholder certificate",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7F2E",
+    "name": "Biometric data template",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7F49",
+    "name": "Template, Cardholder public key",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7F4980",
+    "name": "Algorithm reference as used in control reference data objects for secure messaging",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7F4981",
+    "name": "RSA Modulus (a number denoted as n coded on x bytes), or DSA First prime (a number denoted as p coded on y bytes), or ECDSA Prime (a number denoted as p coded on z bytes)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7F4982",
+    "name": "RSA Public exponent (a number denoted as v, e.g., 65537), or DSA Second prime (a number denoted as q dividing p-1, e.g., 20 bytes), or ECDSA First coefficient (a number denoted as a coded on z bytes)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7F4983",
+    "name": "DSA Basis (a number denoted as g of order q coded on y bytes), or ECDSA Second coefficient (a number denoted as b coded on z bytes)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7F4984",
+    "name": "DSA Public key (a number denoted as y equal to g to the power x mod p where x is the private key coded on y bytes), or ECDSA Generator (a point denoted as PB on the curve, coded onz bytes)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7F4985",
+    "name": "ECDSA Order (a prime number denoted as q, order of the generator PB, coded on z bytes)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7F4986",
+    "name": "ECDSA Public key (a point denoted as PP on the curve, equal to x times PB where x is the private key, coded onz bytes)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7F4C",
+    "name": "Template, Certificate Holder Authorization",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7F4E",
+    "name": "Certificate Body",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7F4E42",
+    "name": "Certificate Authority Reference",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7F4E5F20",
+    "name": "Certificate Holder Reference",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7F4E5F24",
+    "name": "Expiration Date, Certificate",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7F4E5F25",
+    "name": "Effective Date, Certificate",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7F4E5F29",
+    "name": "Certificate Profile Identifier",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7F4E65",
+    "name": "Certificate Extensions",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "7F60",
+    "name": "Template, Biometric information",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "80",
+    "name": "Response Message Template Format 1",
+    "type": "variable",
+    "length": "var."
+  },
+  {
+    "tag": "80",
+    "name": "Response Message Template Format 1",
+    "type": "variable",
+    "length": "var."
+  },
+  {
+    "tag": "80",
+    "name": "Response Message Template Format 1",
+    "type": "variable",
+    "length": "var."
+  },
+  {
+    "tag": "80",
+    "name": "Response Message Template Format 1",
+    "type": "variable",
+    "length": "var."
+  },
+  {
+    "tag": "81",
+    "name": "Amount, Authorised (Binary)",
+    "type": "b",
+    "length": "4"
+  },
+  {
+    "tag": "82",
+    "name": "Application Interchange Profile (AIP)",
+    "type": "b",
+    "length": "2"
+  },
+  {
+    "tag": "82",
+    "name": "Application Interchange Profile (AIP)",
+    "type": "b",
+    "length": "2"
+  },
+  {
+    "tag": "82",
+    "name": "Application Interchange Profile (AIP)",
+    "type": "b",
+    "length": "2"
+  },
+  {
+    "tag": "82",
+    "name": "Application Interchange Profile (AIP)",
+    "type": "b",
+    "length": "2"
+  },
+  {
+    "tag": "82",
+    "name": "Application Interchange Profile (AIP)",
+    "type": "b",
+    "length": "2"
+  },
+  {
+    "tag": "82",
+    "name": "Application Interchange Profile (AIP)",
+    "type": "b",
+    "length": "2"
+  },
+  {
+    "tag": "83",
+    "name": "Command Template",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "83",
+    "name": "Command Template",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "84",
+    "name": "Dedicated File (DF) Name",
+    "type": "b",
+    "length": "16"
+  },
+  {
+    "tag": "84",
+    "name": "Dedicated File (DF) Name",
+    "type": "b",
+    "length": "16"
+  },
+  {
+    "tag": "84",
+    "name": "Dedicated File (DF) Name",
+    "type": "b",
+    "length": "16"
+  },
+  {
+    "tag": "84",
+    "name": "Dedicated File (DF) Name",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "86",
+    "name": "Issuer Script Command",
+    "type": "b",
+    "length": "var. up to 125"
+  },
+  {
+    "tag": "86",
+    "name": "Issuer Script Command",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "87",
+    "name": "Application Priority Indicator",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "87",
+    "name": "Application Priority Indicator",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "87",
+    "name": "Application Priority Indicator",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "87",
+    "name": "Application Priority Indicator",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "87",
+    "name": "Application Priority Indicator",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "88",
+    "name": "Short File Identifier (SFI)",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "88",
+    "name": "Short File Identifier (SFI)",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "88",
+    "name": "Short File Identifier (SFI)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "89",
+    "name": "Authorisation Code",
+    "type": "ans 6 (special characters limited to spaces)",
+    "length": "6"
+  },
+  {
+    "tag": "89",
+    "name": "Authorisation Code",
+    "type": "an",
+    "length": "6"
+  },
+  {
+    "tag": "89",
+    "name": "Authorization Code",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "8A",
+    "name": "Authorisation Response Code (ARC)",
+    "type": "an",
+    "length": "2"
+  },
+  {
+    "tag": "8A",
+    "name": "Authorisation Response Code (ARC)",
+    "type": "an",
+    "length": "2"
+  },
+  {
+    "tag": "8A",
+    "name": "Authorisation Response Code (ARC)",
+    "type": "an",
+    "length": "2"
+  },
+  {
+    "tag": "8A",
+    "name": "Authorization Response Code (ARC)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "8C",
+    "name": "Card Risk Management Data Object List 1 (CDOL1)",
+    "type": "b",
+    "length": "252"
+  },
+  {
+    "tag": "8C",
+    "name": "Card Risk Management Data Object List 1 (CDOL1)",
+    "type": "b",
+    "length": "var. up to 64"
+  },
+  {
+    "tag": "8C",
+    "name": "Card Risk Management Data Object List 1 (CDOL1)",
+    "type": "b",
+    "length": "var. up to 252"
+  },
+  {
+    "tag": "8C",
+    "name": "Card Risk Management Data Object List 1 (CDOL1)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "8D",
+    "name": "Card Risk Management Data Object List 2 (CDOL2)",
+    "type": "b",
+    "length": "var. up to 64"
+  },
+  {
+    "tag": "8D",
+    "name": "Card Risk Management Data Object List 2 (CDOL2)",
+    "type": "b",
+    "length": "var. up to 252"
+  },
+  {
+    "tag": "8D",
+    "name": "Card Risk Management Data Object List 2 (CDOL2)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "8E",
+    "name": "Cardholder Verification Method (CVM) List",
+    "type": "b",
+    "length": "252"
+  },
+  {
+    "tag": "8E",
+    "name": "Cardholder Verification Method (CVM) List",
+    "type": "b",
+    "length": "var. up to 32"
+  },
+  {
+    "tag": "8E",
+    "name": "Cardholder Verification Method (CVM) List",
+    "type": "b",
+    "length": "var. up to 252"
+  },
+  {
+    "tag": "8E",
+    "name": "Cardholder Verification Method (CVM) List",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "8F",
+    "name": "Certification Authority Public Key Index (PKI)",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "8F",
+    "name": "Certification Authority Public Key Index (PKI)",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "8F",
+    "name": "Certification Authority Public Key Index (PKI)",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "8F",
+    "name": "Certification Authority Public Key Index (PKI)",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "8F",
+    "name": "Certification Authority Public Key Index (PKI)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "90",
+    "name": "Issuer Public Key Certificate",
+    "type": "b",
+    "length": "var. (NCA)"
+  },
+  {
+    "tag": "90",
+    "name": "Issuer Public Key Certificate",
+    "type": "b",
+    "length": "var. (NCA)"
+  },
+  {
+    "tag": "90",
+    "name": "Issuer Public Key Certificate",
+    "type": "b",
+    "length": "var. 64-248"
+  },
+  {
+    "tag": "90",
+    "name": "Issuer Public Key Certificate",
+    "type": "b",
+    "length": "var. (NCA)"
+  },
+  {
+    "tag": "90",
+    "name": "Issuer Public Key Certificate",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "91",
+    "name": "Issuer Authentication Data",
+    "type": "binary 64-128",
+    "length": "16"
+  },
+  {
+    "tag": "91",
+    "name": "Issuer Authentication Data",
+    "type": "binary 64-128",
+    "length": "var. up to 16"
+  },
+  {
+    "tag": "91",
+    "name": "Issuer Authentication Data",
+    "type": "b",
+    "length": "16"
+  },
+  {
+    "tag": "91",
+    "name": "Issuer Authentication Data",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "92",
+    "name": "Issuer Public Key Remainder",
+    "type": "b",
+    "length": "var. (NI - NCA + 36)"
+  },
+  {
+    "tag": "92",
+    "name": "Issuer Public Key Remainder",
+    "type": "b",
+    "length": "var. (NI - NCA + 36)"
+  },
+  {
+    "tag": "92",
+    "name": "Issuer Public Key Remainder",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "92",
+    "name": "Issuer Public Key Remainder",
+    "type": "b",
+    "length": "var. (NI - NCA + 36)"
+  },
+  {
+    "tag": "92",
+    "name": "Issuer Public Key Remainder",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "93",
+    "name": "Signed Static Application Data (SAD)",
+    "type": "b",
+    "length": "248"
+  },
+  {
+    "tag": "93",
+    "name": "Signed Static Application Data (SAD)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "94",
+    "name": "Application File Locator (AFL)",
+    "type": "binary, var.; multiple of 4 between 4 and 252",
+    "length": "252"
+  },
+  {
+    "tag": "94",
+    "name": "Application File Locator (AFL)",
+    "type": "b",
+    "length": "252"
+  },
+  {
+    "tag": "94",
+    "name": "Application File Locator (AFL)",
+    "type": "variable",
+    "length": "var. up to 64"
+  },
+  {
+    "tag": "94",
+    "name": "Application File Locator (AFL)",
+    "type": "variable",
+    "length": "var. up to 252"
+  },
+  {
+    "tag": "94",
+    "name": "Application File Locator (AFL)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "95",
+    "name": "Terminal Verification Results (TVR)",
+    "type": "",
+    "length": "6"
+  },
+  {
+    "tag": "95",
+    "name": "Terminal Verification Results (TVR)",
+    "type": "b",
+    "length": "5"
+  },
+  {
+    "tag": "95",
+    "name": "Terminal Verification Results (TVR)",
+    "type": "b",
+    "length": "5"
+  },
+  {
+    "tag": "95",
+    "name": "Terminal Verification Results (TVR)",
+    "type": "b",
+    "length": "5"
+  },
+  {
+    "tag": "95",
+    "name": "Terminal Verification Results (TVR)",
+    "type": "b",
+    "length": "5"
+  },
+  {
+    "tag": "95",
+    "name": "Terminal Verification Results (TVR)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "97",
+    "name": "Transaction Certificate Data Object List (TDOL)",
+    "type": "b",
+    "length": "252"
+  },
+  {
+    "tag": "98",
+    "name": "Transaction Certificate (TC) Hash Value",
+    "type": "b",
+    "length": "20"
+  },
+  {
+    "tag": "99",
+    "name": "Transaction Personal Identification Number (PIN) Data",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "9A",
+    "name": "Transaction Date",
+    "type": "n",
+    "length": "3"
+  },
+  {
+    "tag": "9A",
+    "name": "Transaction Date",
+    "type": "n",
+    "length": "3"
+  },
+  {
+    "tag": "9A",
+    "name": "Transaction Date",
+    "type": "n",
+    "length": "3"
+  },
+  {
+    "tag": "9A",
+    "name": "Transaction Date",
+    "type": "n",
+    "length": "3"
+  },
+  {
+    "tag": "9A",
+    "name": "Transaction Date",
+    "type": "n",
+    "length": "3"
+  },
+  {
+    "tag": "9A",
+    "name": "Transaction Date",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9B",
+    "name": "Transaction Status Information (TSI)",
+    "type": "b",
+    "length": "2"
+  },
+  {
+    "tag": "9C",
+    "name": "Transaction Type",
+    "type": "n",
+    "length": "1"
+  },
+  {
+    "tag": "9C",
+    "name": "Transaction Type",
+    "type": "n",
+    "length": "1"
+  },
+  {
+    "tag": "9C",
+    "name": "Transaction Type",
+    "type": "n",
+    "length": "1"
+  },
+  {
+    "tag": "9C",
+    "name": "Transaction Type",
+    "type": "n",
+    "length": "1"
+  },
+  {
+    "tag": "9C",
+    "name": "Transaction Type",
+    "type": "n",
+    "length": "1"
+  },
+  {
+    "tag": "9C",
+    "name": "Transaction Type",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9D",
+    "name": "Directory Definition File (DDF) Name",
+    "type": "b",
+    "length": "16"
+  },
+  {
+    "tag": "9F01",
+    "name": "Acquirer Identifier",
+    "type": "n-11",
+    "length": "11"
+  },
+  {
+    "tag": "9F01",
+    "name": "Acquirer Identifier",
+    "type": "n-11",
+    "length": "6"
+  },
+  {
+    "tag": "9F01",
+    "name": "Acquirer Identifier",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F02",
+    "name": "Amount, Authorised (Numeric)",
+    "type": "n",
+    "length": "6"
+  },
+  {
+    "tag": "9F02",
+    "name": "Amount, Authorised (Numeric)",
+    "type": "n",
+    "length": "6"
+  },
+  {
+    "tag": "9F02",
+    "name": "Amount, Authorised (Numeric)",
+    "type": "n",
+    "length": "6"
+  },
+  {
+    "tag": "9F02",
+    "name": "Amount, Authorised (Numeric)",
+    "type": "n",
+    "length": "6"
+  },
+  {
+    "tag": "9F02",
+    "name": "Amount, Authorised (Numeric)",
+    "type": "n",
+    "length": "6"
+  },
+  {
+    "tag": "9F02",
+    "name": "Authorised Amount (Numeric)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F03",
+    "name": "Amount, Other (Numeric)",
+    "type": "n",
+    "length": "6"
+  },
+  {
+    "tag": "9F03",
+    "name": "Amount, Other (Numeric)",
+    "type": "n",
+    "length": "6"
+  },
+  {
+    "tag": "9F03",
+    "name": "Amount, Other (Numeric)",
+    "type": "n",
+    "length": "6"
+  },
+  {
+    "tag": "9F03",
+    "name": "Amount, Other (Numeric)",
+    "type": "n",
+    "length": "6"
+  },
+  {
+    "tag": "9F03",
+    "name": "Amount, Other (Numeric)",
+    "type": "n",
+    "length": "6"
+  },
+  {
+    "tag": "9F03",
+    "name": "Amount, Other (Numeric)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F04",
+    "name": "Amount, Other (Binary)",
+    "type": "b",
+    "length": "4"
+  },
+  {
+    "tag": "9F05",
+    "name": "Application Discretionary Data",
+    "type": "b",
+    "length": "32"
+  },
+  {
+    "tag": "9F06",
+    "name": "Application Identifier (AID), Terminal",
+    "type": "b",
+    "length": "16"
+  },
+  {
+    "tag": "9F06",
+    "name": "Application Identifier (AID), Terminal",
+    "type": "b",
+    "length": "16"
+  },
+  {
+    "tag": "9F07",
+    "name": "Application Usage Control (AUC)",
+    "type": "b",
+    "length": "2"
+  },
+  {
+    "tag": "9F07",
+    "name": "Application Usage Control (AUC)",
+    "type": "b",
+    "length": "2"
+  },
+  {
+    "tag": "9F07",
+    "name": "Application Usage Control (AUC)",
+    "type": "b",
+    "length": "2"
+  },
+  {
+    "tag": "9F07",
+    "name": "Application Usage Control (AUC)",
+    "type": "b",
+    "length": "2"
+  },
+  {
+    "tag": "9F07",
+    "name": "Application Usage Control (AUC)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F08",
+    "name": "Application Version Number",
+    "type": "b",
+    "length": "2"
+  },
+  {
+    "tag": "9F08",
+    "name": "Application Version Number",
+    "type": "b",
+    "length": "2"
+  },
+  {
+    "tag": "9F08",
+    "name": "Application Version Number, Card",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F09",
+    "name": "Application Version Number",
+    "type": "b",
+    "length": "2"
+  },
+  {
+    "tag": "9F09",
+    "name": "Application Version Number, Terminal",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F0B",
+    "name": "Cardholder Name - Extended",
+    "type": "ans 27-45",
+    "length": "45"
+  },
+  {
+    "tag": "9F0D",
+    "name": "Issuer Action Code - Default",
+    "type": "b",
+    "length": "5"
+  },
+  {
+    "tag": "9F0D",
+    "name": "Issuer Action Code - Default",
+    "type": "b",
+    "length": "5"
+  },
+  {
+    "tag": "9F0D",
+    "name": "Issuer Action Code - Default",
+    "type": "b",
+    "length": "5"
+  },
+  {
+    "tag": "9F0D",
+    "name": "Issuer Action Code - Default",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F0E",
+    "name": "Issuer Action Code - Denial",
+    "type": "b",
+    "length": "5"
+  },
+  {
+    "tag": "9F0E",
+    "name": "Issuer Action Code - Denial",
+    "type": "b",
+    "length": "5"
+  },
+  {
+    "tag": "9F0E",
+    "name": "Issuer Action Code - Denial",
+    "type": "b",
+    "length": "5"
+  },
+  {
+    "tag": "9F0E",
+    "name": "Issuer Action Code - Denial",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F0F",
+    "name": "Issuer Action Code - Online",
+    "type": "b",
+    "length": "5"
+  },
+  {
+    "tag": "9F0F",
+    "name": "Issuer Action Code - Online",
+    "type": "b",
+    "length": "5"
+  },
+  {
+    "tag": "9F0F",
+    "name": "Issuer Action Code - Online",
+    "type": "b",
+    "length": "5"
+  },
+  {
+    "tag": "9F0F",
+    "name": "Issuer Action Code - Online",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F10",
+    "name": "Issuer Application Data (IAD)",
+    "type": "b",
+    "length": "32"
+  },
+  {
+    "tag": "9F10",
+    "name": "Issuer Application Data (IAD)",
+    "type": "b",
+    "length": "32"
+  },
+  {
+    "tag": "9F10",
+    "name": "Issuer Application Data (IAD)",
+    "type": "b",
+    "length": "32"
+  },
+  {
+    "tag": "9F10",
+    "name": "Issuer Application Data (IAD)",
+    "type": "b",
+    "length": "var. 32"
+  },
+  {
+    "tag": "9F10",
+    "name": "Issuer Application Data (IAD)",
+    "type": "b",
+    "length": "var. up to 32"
+  },
+  {
+    "tag": "9F10",
+    "name": "Issuer Application Data (IAD)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F11",
+    "name": "Issuer Code Table Index",
+    "type": "n",
+    "length": "1"
+  },
+  {
+    "tag": "9F11",
+    "name": "Issuer Code Table Index",
+    "type": "n",
+    "length": "1"
+  },
+  {
+    "tag": "9F11",
+    "name": "Issuer Code Table Index",
+    "type": "n",
+    "length": "1"
+  },
+  {
+    "tag": "9F11",
+    "name": "Issuer Code Table Index",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F12",
+    "name": "Application Preferred Name",
+    "type": "ans",
+    "length": "16"
+  },
+  {
+    "tag": "9F12",
+    "name": "Application Preferred Name",
+    "type": "ans 1-16",
+    "length": "16"
+  },
+  {
+    "tag": "9F12",
+    "name": "Application Preferred Name",
+    "type": "ans 1-16",
+    "length": "16"
+  },
+  {
+    "tag": "9F12",
+    "name": "Application Preferred Name",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F13",
+    "name": "Last Online Application Transaction Counter (ATC) Register",
+    "type": "b",
+    "length": "2"
+  },
+  {
+    "tag": "9F14",
+    "name": "Lower Consecutive Offline Limit (LCOL)",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "9F15",
+    "name": "Merchant Category Code (MCC)",
+    "type": "n 4",
+    "length": "2"
+  },
+  {
+    "tag": "9F15",
+    "name": "Merchant Category Code (MCC)",
+    "type": "n 4",
+    "length": "2"
+  },
+  {
+    "tag": "9F15",
+    "name": "Merchant Category Code (MCC)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F16",
+    "name": "Merchant Identifier",
+    "type": "ans 15",
+    "length": "15"
+  },
+  {
+    "tag": "9F16",
+    "name": "Merchant Identifier",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F17",
+    "name": "Personal Identification Number (PIN) Try Counter",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "9F18",
+    "name": "Issuer Script Identifier",
+    "type": "b",
+    "length": "4"
+  },
+  {
+    "tag": "9F18",
+    "name": "Issuer Script Identifier",
+    "type": "b",
+    "length": "4"
+  },
+  {
+    "tag": "9F18",
+    "name": "Issuer Script Identifier",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F19",
+    "name": "Deleted (see 9F49)",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "9F1A",
+    "name": "Terminal Country Code",
+    "type": "n",
+    "length": "2"
+  },
+  {
+    "tag": "9F1A",
+    "name": "Terminal Country Code",
+    "type": "n",
+    "length": "2"
+  },
+  {
+    "tag": "9F1A",
+    "name": "Terminal Country Code",
+    "type": "n",
+    "length": "2"
+  },
+  {
+    "tag": "9F1A",
+    "name": "Terminal Country Code",
+    "type": "n",
+    "length": "2"
+  },
+  {
+    "tag": "9F1A",
+    "name": "Terminal Country Code",
+    "type": "n",
+    "length": "2"
+  },
+  {
+    "tag": "9F1A",
+    "name": "Terminal Country Code",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F1B",
+    "name": "Terminal Floor Limit",
+    "type": "b",
+    "length": "4"
+  },
+  {
+    "tag": "9F1B",
+    "name": "Terminal Floor Limit",
+    "type": "b",
+    "length": "4"
+  },
+  {
+    "tag": "9F1B",
+    "name": "Terminal Floor Limit",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F1C",
+    "name": "Terminal Identification",
+    "type": "an 8",
+    "length": "8"
+  },
+  {
+    "tag": "9F1C",
+    "name": "Terminal Identification",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F1D",
+    "name": "Terminal Risk Management Data",
+    "type": "b",
+    "length": "8"
+  },
+  {
+    "tag": "9F1E",
+    "name": "Interface Device (IFD) Serial Number",
+    "type": "an 8",
+    "length": "8"
+  },
+  {
+    "tag": "9F1E",
+    "name": "Interface Device (IFD) Serial Number",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F1F",
+    "name": "Track 1 Discretionary Data",
+    "type": "ans",
+    "length": "var."
+  },
+  {
+    "tag": "krn1",
+    "name": "Track 1 Discretionary Data",
+    "type": "ans",
+    "length": "var."
+  },
+  {
+    "tag": "9F1F",
+    "name": "Track 1 Discretionary Data",
+    "type": "ans",
+    "length": "var."
+  },
+  {
+    "tag": "9F1F",
+    "name": "Track 1 Discretionary Data",
+    "type": "ans",
+    "length": "var."
+  },
+  {
+    "tag": "9F1F",
+    "name": "Track 1, Discretionary Data",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F20",
+    "name": "Track 2 Discretionary Data",
+    "type": "cn",
+    "length": "var."
+  },
+  {
+    "tag": "9F20",
+    "name": "Track 2, Discretionary Data",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F21",
+    "name": "Transaction Time",
+    "type": "n (HHMMSS)",
+    "length": "3"
+  },
+  {
+    "tag": "9F21",
+    "name": "Transaction Time",
+    "type": "n (HHMMSS)",
+    "length": "3"
+  },
+  {
+    "tag": "9F21",
+    "name": "Transaction Time",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F22",
+    "name": "Certification Authority Public Key Index (PKI)",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "9F22",
+    "name": "Public Key Index, Certification Authority, Terminal",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F23",
+    "name": "Upper Consecutive Offline Limit (UCOL)",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "9F24",
+    "name": "Payment Account Reference (PAR) generated or linked directly to the provision request in the token vault",
+    "type": "ans 24",
+    "length": "24"
+  },
+  {
+    "tag": "9F26",
+    "name": "Application Cryptogram (AC)",
+    "type": "b",
+    "length": "8"
+  },
+  {
+    "tag": "krn1",
+    "name": "Application Cryptogram (AC)",
+    "type": "b",
+    "length": "8"
+  },
+  {
+    "tag": "9F26",
+    "name": "Application Cryptogram (AC)",
+    "type": "binary 64",
+    "length": "8"
+  },
+  {
+    "tag": "9F26",
+    "name": "Application Cryptogram (AC)",
+    "type": "binary 64",
+    "length": "8"
+  },
+  {
+    "tag": "9F26",
+    "name": "Application Cryptogram (AC)",
+    "type": "b",
+    "length": "8"
+  },
+  {
+    "tag": "9F26",
+    "name": "Application Cryptogram (AC)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "krn1",
+    "name": "Cryptogram Information Data (CID)",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "9F27",
+    "name": "Cryptogram Information Data (CID)",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "9F27",
+    "name": "Cryptogram Information Data (CID)",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "9F27",
+    "name": "Cryptogram Information Data (CID)",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "9F27",
+    "name": "Cryptogram Information Data (CID)",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "9F27",
+    "name": "Cryptogram Information Data (CID)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F29",
+    "name": "Extended Selection",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "9F2A",
+    "name": "Kernel Identifier",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "9F2D",
+    "name": "Integrated Circuit Card (ICC) PIN Encipherment Public Key Certificate",
+    "type": "b",
+    "length": "var. (NI)"
+  },
+  {
+    "tag": "9F2E",
+    "name": "Integrated Circuit Card (ICC) PIN Encipherment Public Key Exponent",
+    "type": "b",
+    "length": "1 or 3"
+  },
+  {
+    "tag": "9F2F",
+    "name": "Integrated Circuit Card (ICC) PIN Encipherment Public Key Remainder",
+    "type": "b",
+    "length": "var. (NPE - NI + 42)"
+  },
+  {
+    "tag": "9F32",
+    "name": "Issuer Public Key Exponent",
+    "type": "b",
+    "length": "3"
+  },
+  {
+    "tag": "9F32",
+    "name": "Issuer Public Key Exponent",
+    "type": "b",
+    "length": "1 or 3"
+  },
+  {
+    "tag": "9F32",
+    "name": "Issuer Public Key Exponent",
+    "type": "b",
+    "length": "1 or 3"
+  },
+  {
+    "tag": "9F32",
+    "name": "Issuer Public Key Exponent",
+    "type": "b",
+    "length": "3"
+  },
+  {
+    "tag": "9F32",
+    "name": "Issuer Public Key Exponent",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F33",
+    "name": "Terminal Capabilities",
+    "type": "b",
+    "length": "3"
+  },
+  {
+    "tag": "9F33",
+    "name": "Terminal Capabilities",
+    "type": "b",
+    "length": "3"
+  },
+  {
+    "tag": "9F33",
+    "name": "Terminal Capabilities",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F34",
+    "name": "Cardholder Verification Method (CVM) Results",
+    "type": "b",
+    "length": "3"
+  },
+  {
+    "tag": "9F34",
+    "name": "Cardholder Verification Method (CVM) Results",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F35",
+    "name": "Terminal Type",
+    "type": "n",
+    "length": "1"
+  },
+  {
+    "tag": "9F35",
+    "name": "Terminal Type",
+    "type": "n",
+    "length": "1"
+  },
+  {
+    "tag": "9F35",
+    "name": "Terminal Type",
+    "type": "n",
+    "length": "1"
+  },
+  {
+    "tag": "9F35",
+    "name": "Terminal Type",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F36",
+    "name": "Application Transaction Counter (ATC)",
+    "type": "b",
+    "length": "2"
+  },
+  {
+    "tag": "9F36",
+    "name": "Application Transaction Counter (ATC)",
+    "type": "b",
+    "length": "2"
+  },
+  {
+    "tag": "9F36",
+    "name": "Application Transaction Counter (ATC)",
+    "type": "b",
+    "length": "2"
+  },
+  {
+    "tag": "9F36",
+    "name": "Application Transaction Counter (ATC)",
+    "type": "b",
+    "length": "2"
+  },
+  {
+    "tag": "9F36",
+    "name": "Application Transaction Counter (ATC)",
+    "type": "b",
+    "length": "2"
+  },
+  {
+    "tag": "9F36",
+    "name": "Application Transaction Counter (ATC)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F37",
+    "name": "Unpredictable Number (UN)",
+    "type": "b",
+    "length": "4"
+  },
+  {
+    "tag": "9F37",
+    "name": "Unpredictable Number (UN)",
+    "type": "b",
+    "length": "4"
+  },
+  {
+    "tag": "9F37",
+    "name": "Unpredictable Number (UN) (Reader/Terminal)",
+    "type": "b",
+    "length": "4"
+  },
+  {
+    "tag": "9F37",
+    "name": "Unpredictable Number (UN)",
+    "type": "b",
+    "length": "4"
+  },
+  {
+    "tag": "9F37",
+    "name": "Unpredictable Number (UN)",
+    "type": "b",
+    "length": "4"
+  },
+  {
+    "tag": "9F37",
+    "name": "Unpredictable Number (UN)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F38",
+    "name": "Processing Options Data Object List (PDOL)",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "9F38",
+    "name": "Processing Options Data Object List (PDOL)",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "9F38",
+    "name": "Processing Options Data Object List (PDOL)",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "9F38",
+    "name": "Processing Options Data Object List (PDOL)",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "9F39",
+    "name": "Point-of-Service (POS) Entry Mode",
+    "type": "n",
+    "length": "1"
+  },
+  {
+    "tag": "9F3A",
+    "name": "Amount, Reference Currency (Binary)",
+    "type": "b",
+    "length": "4"
+  },
+  {
+    "tag": "9F3B",
+    "name": "Currency Code, Application Reference",
+    "type": "n",
+    "length": "8"
+  },
+  {
+    "tag": "9F3C",
+    "name": "Currency Code, Transaction Reference",
+    "type": "n",
+    "length": "2"
+  },
+  {
+    "tag": "9F3D",
+    "name": "Currency Exponent, Transaction Reference",
+    "type": "n",
+    "length": "1"
+  },
+  {
+    "tag": "9F40",
+    "name": "Additional Terminal Capabilities (ATC)",
+    "type": "b",
+    "length": "5"
+  },
+  {
+    "tag": "9F40",
+    "name": "Additional Terminal Capabilities (ATC)",
+    "type": "b",
+    "length": "5"
+  },
+  {
+    "tag": "9F40",
+    "name": "Additional Terminal Capabilities (ATC)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F41",
+    "name": "Transaction Sequence Counter",
+    "type": "n 4-8",
+    "length": "4"
+  },
+  {
+    "tag": "9F42",
+    "name": "Currency Code, Application",
+    "type": "n",
+    "length": "2"
+  },
+  {
+    "tag": "9F42",
+    "name": "Currency Code, Application",
+    "type": "n",
+    "length": "2"
+  },
+  {
+    "tag": "9F42",
+    "name": "Currency Code, Application",
+    "type": "n",
+    "length": "2"
+  },
+  {
+    "tag": "9F42",
+    "name": "Currency Code, Application",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F43",
+    "name": "Currency Exponent, Application Reference",
+    "type": "n",
+    "length": "4"
+  },
+  {
+    "tag": "9F44",
+    "name": "Currency Exponent, Application",
+    "type": "n",
+    "length": "1"
+  },
+  {
+    "tag": "9F44",
+    "name": "Currency Exponent, Application",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F45",
+    "name": "Data Authentication Code",
+    "type": "b",
+    "length": "2"
+  },
+  {
+    "tag": "9F46",
+    "name": "Integrated Circuit Card (ICC) Public Key Certificate",
+    "type": "b",
+    "length": "var. (NI)"
+  },
+  {
+    "tag": "9F46",
+    "name": "Integrated Circuit Card (ICC) Public Key Certificate",
+    "type": "b",
+    "length": "var. (NI)"
+  },
+  {
+    "tag": "9F46",
+    "name": "Application Public Key Certificate",
+    "type": "b",
+    "length": "var. up to 128"
+  },
+  {
+    "tag": "9F46",
+    "name": "Integrated Circuit Card (ICC) Public Key Certificate",
+    "type": "b",
+    "length": "var. (NI)"
+  },
+  {
+    "tag": "9F46",
+    "name": "Integrated Circuit Card (ICC) Public Key Certificate",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F47",
+    "name": "Integrated Circuit Card (ICC) Public Key Exponent",
+    "type": "b",
+    "length": "3"
+  },
+  {
+    "tag": "9F47",
+    "name": "Integrated Circuit Card (ICC) Public Key Exponent",
+    "type": "b",
+    "length": "3"
+  },
+  {
+    "tag": "9F47",
+    "name": "Application Public Key Exponent",
+    "type": "b",
+    "length": "1 or 3"
+  },
+  {
+    "tag": "9F47",
+    "name": "Integrated Circuit Card (ICC) Public Key Exponent",
+    "type": "b",
+    "length": "3"
+  },
+  {
+    "tag": "9F47",
+    "name": "Integrated Circuit Card (ICC) Public Key Exponent",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F48",
+    "name": "Integrated Circuit Card (ICC) Public Key Remainder",
+    "type": "b",
+    "length": "var. (NIC - NI + 42)"
+  },
+  {
+    "tag": "9F48",
+    "name": "Integrated Circuit Card (ICC) Public Key Remainder",
+    "type": "b",
+    "length": "var. (NIC - NI + 42)"
+  },
+  {
+    "tag": "9F48",
+    "name": "Application Public Key Remainder",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "9F48",
+    "name": "Integrated Circuit Card (ICC) Public Key Remainder",
+    "type": "b",
+    "length": "var. (NIC - NI + 42)"
+  },
+  {
+    "tag": "9F48",
+    "name": "Integrated Circuit Card (ICC) Public Key Remainder",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F49",
+    "name": "Dynamic Data Authentication Data Object List (DDOL)",
+    "type": "b",
+    "length": "252"
+  },
+  {
+    "tag": "9F4A",
+    "name": "Static Data Authentication Tag List (SDA)",
+    "type": "-",
+    "length": "var."
+  },
+  {
+    "tag": "9F4A",
+    "name": "Static Data Authentication Tag List (SDA)",
+    "type": "-",
+    "length": "var."
+  },
+  {
+    "tag": "9F4A",
+    "name": "Static Data Authentication Tag List (SDA)",
+    "type": "-",
+    "length": "var."
+  },
+  {
+    "tag": "9F4A",
+    "name": "Static Data Authentication Tag List (SDA)",
+    "type": "-",
+    "length": "var."
+  },
+  {
+    "tag": "9F4A",
+    "name": "Static Data Authentication Tag List (SDA)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F4B",
+    "name": "Signed Dynamic Application Data (SDAD)",
+    "type": "b",
+    "length": "var. (NIC)"
+  },
+  {
+    "tag": "9F4B",
+    "name": "Signed Dynamic Application Data (SDAD)",
+    "type": "b",
+    "length": "var. (NIC)"
+  },
+  {
+    "tag": "9F4B",
+    "name": "Signed Dynamic Application Data (SDAD)",
+    "type": "b",
+    "length": "var. (NIC)"
+  },
+  {
+    "tag": "9F4B",
+    "name": "Signed Dynamic Application Data (SDAD)",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F4C",
+    "name": "ICC Dynamic Number",
+    "type": "b",
+    "length": "8"
+  },
+  {
+    "tag": "9F4C",
+    "name": "ICC Dynamic Number",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F4D",
+    "name": "Log Entry",
+    "type": "b",
+    "length": "2"
+  },
+  {
+    "tag": "9F4D",
+    "name": "Log Entry",
+    "type": "b",
+    "length": "2"
+  },
+  {
+    "tag": "9F4D",
+    "name": "Log Entry",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F4E",
+    "name": "Merchant Name and Location",
+    "type": "ans",
+    "length": "var."
+  },
+  {
+    "tag": "9F4E",
+    "name": "Merchant Name and Location",
+    "type": "ans",
+    "length": "var."
+  },
+  {
+    "tag": "9F4E",
+    "name": "Merchant Name and Location",
+    "type": "ans",
+    "length": "var."
+  },
+  {
+    "tag": "9F4E",
+    "name": "Merchant Name and Location",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F4F",
+    "name": "Log Format",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "9F4F",
+    "name": "Log Format",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "9F50",
+    "name": "Offline Accumulator Balance",
+    "type": "n",
+    "length": "6"
+  },
+  {
+    "tag": "9F50",
+    "name": "Cardholder Verification Status",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "9F51",
+    "name": "Application Currency Code",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "9F51",
+    "name": "DRDOL",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "9F52",
+    "name": "Application Default Action (ADA)",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "9F52",
+    "name": "Terminal Compatibility Indicator",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "9F53",
+    "name": "Consecutive Transaction Counter International Limit (CTCIL)",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "9F53",
+    "name": "Transaction Category Code",
+    "type": "an",
+    "length": "1"
+  },
+  {
+    "tag": "9F53",
+    "name": "Terminal Interchange Profile (dynamic)",
+    "type": "b",
+    "length": "3"
+  },
+  {
+    "tag": "9F54",
+    "name": "Cumulative Total Transaction Amount Limit (CTTAL)",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "9F54",
+    "name": "DS ODS Card",
+    "type": "b",
+    "length": "160"
+  },
+  {
+    "tag": "9F55",
+    "name": "Geographic Indicator",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "krn1",
+    "name": "Issuer Authentication Flags",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "9F55",
+    "name": "Issuer Authentication Flags",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "9F55",
+    "name": "Issuer Authentication Flags",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "9F56",
+    "name": "Issuer Authentication Indicator",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "krn1",
+    "name": "Issuer Proprietary Bitmap",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "9F56",
+    "name": "Issuer Proprietary Bitmap",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "9F56",
+    "name": "Issuer Proprietary Bitmap",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "9F57",
+    "name": "Issuer Country Code",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "9F58",
+    "name": "Consecutive Transaction Counter Limit (CTCL)",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "9F59",
+    "name": "Consecutive Transaction Counter Upper Limit (CTCUL)",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "9F5A",
+    "name": "Application Program Identifier (Program ID)",
+    "type": "b",
+    "length": "16"
+  },
+  {
+    "tag": "9F5A",
+    "name": "Application Program Identifier (Program ID)",
+    "type": "b",
+    "length": "16"
+  },
+  {
+    "tag": "9F5B",
+    "name": "Issuer Script Results",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "9F5B",
+    "name": "DSDOL",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "9F5C",
+    "name": "Cumulative Total Transaction Amount Upper Limit (CTTAUL)",
+    "type": "n",
+    "length": "6"
+  },
+  {
+    "tag": "9F5C",
+    "name": "DS Requested Operator ID",
+    "type": "b",
+    "length": "8"
+  },
+  {
+    "tag": "9F5C",
+    "name": "Magstripe Data Object List (MDOL)",
+    "type": "b",
+    "length": "var. up to 252"
+  },
+  {
+    "tag": "9F5D",
+    "name": "Available Offline Spending Amount (AOSA)",
+    "type": "n",
+    "length": "6"
+  },
+  {
+    "tag": "9F5D",
+    "name": "Application Capabilities Information (ACI)",
+    "type": "b",
+    "length": "3"
+  },
+  {
+    "tag": "9F5E",
+    "name": "Consecutive Transaction International Upper Limit (CTIUL)",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "9F5E",
+    "name": "DS ID",
+    "type": "n6-22",
+    "length": "11"
+  },
+  {
+    "tag": "9F5F",
+    "name": "DS Slot Availability",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "9F5F",
+    "name": "Offline Balance",
+    "type": "n",
+    "length": "6"
+  },
+  {
+    "tag": "9F60",
+    "name": "CVC3 (Track1)",
+    "type": "b",
+    "length": "2"
+  },
+  {
+    "tag": "9F60",
+    "name": "Issuer Update Parameter",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "9F60",
+    "name": "P3 Generated 3DES KEYS",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "9F61",
+    "name": "CVC3 (Track2)",
+    "type": "b",
+    "length": "2"
+  },
+  {
+    "tag": "9F62",
+    "name": "PCVC3 (Track1)",
+    "type": "b",
+    "length": "6"
+  },
+  {
+    "tag": "9F62",
+    "name": "Encrypted PIN - ISO 95641 Format 0 (Thales P3 Format 01)",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "9F63",
+    "name": "Offline Counter Initial Value",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "9F63",
+    "name": "PUNATC (Track1)",
+    "type": "b",
+    "length": "6"
+  },
+  {
+    "tag": "9F64",
+    "name": "NATC (Track1)",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "9F65",
+    "name": "PCVC3 (Track2)",
+    "type": "b",
+    "length": "2"
+  },
+  {
+    "tag": "9F66",
+    "name": "Terminal Transaction Qualifiers (TTQ)",
+    "type": "b",
+    "length": "4"
+  },
+  {
+    "tag": "9F66",
+    "name": "PUNATC (Track2)",
+    "type": "b",
+    "length": "2"
+  },
+  {
+    "tag": "9F67",
+    "name": "MSD Offset",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "9F67",
+    "name": "NATC (Track2)",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "9F68",
+    "name": "Card Additional Processes",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "9F69",
+    "name": "Card Authentication Related Data",
+    "type": "b",
+    "length": "16"
+  },
+  {
+    "tag": "9F69",
+    "name": "UDOL",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "9F6A",
+    "name": "Unpredictable Number (Numeric)",
+    "type": "n 8",
+    "length": "4"
+  },
+  {
+    "tag": "9F6B",
+    "name": "Card CVM Limit",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "9F6B",
+    "name": "Track 2 Data",
+    "type": "b",
+    "length": "19"
+  },
+  {
+    "tag": "9F6C",
+    "name": "Card Transaction Qualifiers (CTQ)",
+    "type": "b",
+    "length": "2"
+  },
+  {
+    "tag": "9F6D",
+    "name": "VLP Reset Threshold",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "9F6D",
+    "name": "Mag-stripe Application Version Number (Reader)",
+    "type": "b",
+    "length": "2"
+  },
+  {
+    "tag": "9F6D",
+    "name": "Kernel 4 Reader Capabilities",
+    "type": "n",
+    "length": "1"
+  },
+  {
+    "tag": "9F6E",
+    "name": "Third Party Data",
+    "type": "b",
+    "length": "32"
+  },
+  {
+    "tag": "9F6E",
+    "name": "Form Factor Indicator (qVSDC)",
+    "type": "b",
+    "length": "4"
+  },
+  {
+    "tag": "9F6E",
+    "name": "Form Factor Indicator (FFI)",
+    "type": "b",
+    "length": "4"
+  },
+  {
+    "tag": "9F6F",
+    "name": "DS Slot Management Control",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "9F70",
+    "name": "Protected Data Envelope 1",
+    "type": "b",
+    "length": "192"
+  },
+  {
+    "tag": "9F70",
+    "name": "Card Interface Capabilities",
+    "type": "b",
+    "length": "2"
+  },
+  {
+    "tag": "9F71",
+    "name": "Protected Data Envelope 2",
+    "type": "b",
+    "length": "192"
+  },
+  {
+    "tag": "9F71",
+    "name": "Mobile CVM Results",
+    "type": "b",
+    "length": "4"
+  },
+  {
+    "tag": "9F72",
+    "name": "Protected Data Envelope 3",
+    "type": "b",
+    "length": "192"
+  },
+  {
+    "tag": "9F72",
+    "name": "Consecutive Transaction Limit (Internationalâ€”Country)",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "9F73",
+    "name": "Protected Data Envelope 4",
+    "type": "b",
+    "length": "192"
+  },
+  {
+    "tag": "9F73",
+    "name": "Currency Conversion Parameters",
+    "type": "n 8",
+    "length": "4"
+  },
+  {
+    "tag": "9F74",
+    "name": "Protected Data Envelope 5",
+    "type": "b",
+    "length": "192"
+  },
+  {
+    "tag": "krn1",
+    "name": "VLP Issuer Authorisation Code",
+    "type": "a 6",
+    "length": "6"
+  },
+  {
+    "tag": "9F75",
+    "name": "Unprotected Data Envelope 1",
+    "type": "b",
+    "length": "192"
+  },
+  {
+    "tag": "9F75",
+    "name": "Cumulative Total Transaction Amount Limit-Dual Currency",
+    "type": "n",
+    "length": "6"
+  },
+  {
+    "tag": "9F76",
+    "name": "Unprotected Data Envelope 2",
+    "type": "b",
+    "length": "192"
+  },
+  {
+    "tag": "9F76",
+    "name": "Secondary Application Currency Code",
+    "type": "n",
+    "length": "2"
+  },
+  {
+    "tag": "9F77",
+    "name": "Unprotected Data Envelope 3",
+    "type": "b",
+    "length": "192"
+  },
+  {
+    "tag": "9F77",
+    "name": "VLP Funds Limit",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "9F78",
+    "name": "Unprotected Data Envelope 4",
+    "type": "b",
+    "length": "192"
+  },
+  {
+    "tag": "9F78",
+    "name": "VLP Single Transaction Limit",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "9F79",
+    "name": "Unprotected Data Envelope 5",
+    "type": "b",
+    "length": "192"
+  },
+  {
+    "tag": "9F79",
+    "name": "VLP Available Funds",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "krn1",
+    "name": "VLP Terminal Support Indicator",
+    "type": "n",
+    "length": "1"
+  },
+  {
+    "tag": "9F7B",
+    "name": "VLP Terminal Transaction Limit",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "9F7C",
+    "name": "Customer Exclusive Data (CED)",
+    "type": "b",
+    "length": "var. up to 32"
+  },
+  {
+    "tag": "9F7C",
+    "name": "Merchant Custom Data",
+    "type": "b",
+    "length": "20"
+  },
+  {
+    "tag": "9F7D",
+    "name": "DS Summary 1",
+    "type": "b",
+    "length": "16"
+  },
+  {
+    "tag": "9F7D",
+    "name": "VISA Applet Data",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "9F7E",
+    "name": "Mobile Support Indicator",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "9F7E",
+    "name": "Application life cycle data (8 first bytes)",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "9F7F",
+    "name": "DS Unpredictable Number",
+    "type": "b",
+    "length": "4"
+  },
+  {
+    "tag": "9F7F",
+    "name": "Card Production Life Cycle (CPLC) Data",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "A5",
+    "name": "File Control Information (FCI) Proprietary Template",
+    "type": "variable",
+    "length": "var."
+  },
+  {
+    "tag": "A5",
+    "name": "File Control Information (FCI) Proprietary Template",
+    "type": "variable",
+    "length": "var."
+  },
+  {
+    "tag": "A5",
+    "name": "File Control Information (FCI) Proprietary Template",
+    "type": "variable",
+    "length": "var."
+  },
+  {
+    "tag": "BF0C",
+    "name": "File Control Information (FCI) Issuer Discretionary Data",
+    "type": "variable",
+    "length": "222"
+  },
+  {
+    "tag": "BF0C",
+    "name": "File Control Information (FCI) Issuer Discretionary Data",
+    "type": "variable",
+    "length": "222"
+  },
+  {
+    "tag": "BF0C",
+    "name": "File Control Information (FCI) Issuer Discretionary Data",
+    "type": "variable",
+    "length": "222"
+  },
+  {
+    "tag": "BF0C",
+    "name": "File Control Information (FCI) Issuer Discretionary Data",
+    "type": "",
+    "length": ""
+  },
+  {
+    "tag": "BF50",
+    "name": "Visa Fleet - CDO",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "BF60",
+    "name": "Integrated Data Storage Record Update Template",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "C3",
+    "name": "Card issuer action code -decline",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "C4",
+    "name": "Card issuer action code -default",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "C5",
+    "name": "Card issuer action code online",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "C6",
+    "name": "PIN Try Limit",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "C7",
+    "name": "CDOL 1 Related Data Length",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "C8",
+    "name": "Card risk management country code",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "C9",
+    "name": "Card risk management currency code",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "CA",
+    "name": "Lower cumulative offline transaction amount",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "CB",
+    "name": "Upper cumulative offline transaction amount",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "CD",
+    "name": "Card Issuer Action Code (PayPass) - Default",
+    "type": "H",
+    "length": "3"
+  },
+  {
+    "tag": "CE",
+    "name": "Card Issuer Action Code (PayPass) - Online",
+    "type": "H",
+    "length": "3"
+  },
+  {
+    "tag": "CF",
+    "name": "Card Issuer Action Code (PayPass) - Decline",
+    "type": "H",
+    "length": "3"
+  },
+  {
+    "tag": "D1",
+    "name": "Currency conversion table",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "D2",
+    "name": "Integrated Data Storage Directory (IDSD)",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "D3",
+    "name": "Additional check table",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "D5",
+    "name": "Application Control",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "D6",
+    "name": "Default ARPC response code",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "D7",
+    "name": "Application Control (PayPass)",
+    "type": "H",
+    "length": "3"
+  },
+  {
+    "tag": "D8",
+    "name": "AIP (PayPass)",
+    "type": "H",
+    "length": "2"
+  },
+  {
+    "tag": "D9",
+    "name": "AFL (PayPass)",
+    "type": "H",
+    "length": "16"
+  },
+  {
+    "tag": "DA",
+    "name": "Static CVC3-TRACK1",
+    "type": "H",
+    "length": "2"
+  },
+  {
+    "tag": "DB",
+    "name": "Static CVC3-TRACK2",
+    "type": "H",
+    "length": "2"
+  },
+  {
+    "tag": "DC",
+    "name": "IVCVC3-TRACK1",
+    "type": "H",
+    "length": "2"
+  },
+  {
+    "tag": "DD",
+    "name": "IVCVC3-TRACK2",
+    "type": "H",
+    "length": "2"
+  },
+  {
+    "tag": "DF01",
+    "name": "Encrypted PIN Block in Tag 9F62 - ISO 95641 Format 0",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF02",
+    "name": "PEK Version Number",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF03",
+    "name": "PIN Try Limit",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF04",
+    "name": "PIN Try Counter (VSDC Application)",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF05",
+    "name": "AIP - For VISA Contactless",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF06",
+    "name": "Products permitted",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF07",
+    "name": "Offline checks mandated",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF08",
+    "name": "UDKmac",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF09",
+    "name": "UDKenc",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF0B",
+    "name": "Retries Permitted Limit",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF0C",
+    "name": "Script Message Update",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF0D",
+    "name": "Fleet Issuer Action Code - Default",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF0E",
+    "name": "Fleet Issuer Action Code - Denial",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF0F",
+    "name": "Fleet Issuer Action Code - Online",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF12",
+    "name": "Vehicle Registration Number",
+    "type": "A",
+    "length": ""
+  },
+  {
+    "tag": "DF13",
+    "name": "DDA Public Modulus",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF14",
+    "name": "Driver Name",
+    "type": "A",
+    "length": ""
+  },
+  {
+    "tag": "DF15",
+    "name": "Driver ID",
+    "type": "A",
+    "length": ""
+  },
+  {
+    "tag": "DF16",
+    "name": "Max Fill Volume",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF17",
+    "name": "DDA Public Modulus Length",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF18",
+    "name": "Mileage",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF20",
+    "name": "Issuer Proprietary Bitmap (IPB)",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF21",
+    "name": "Internet Authentication Flag (IAF)",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF22",
+    "name": "Encrypted PEK - RFU",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF23",
+    "name": "PEK Key Check Value - RFU",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF24",
+    "name": "MDK - Key derivation Index",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF25",
+    "name": "VISA DPA - MDK - Key derivation Index",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF26",
+    "name": "Encrypted PIN Block - ISO 9564-1 Format 1 PIN Block (Thales P3 Format 05)",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF40",
+    "name": "qVSDC AIP",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF41",
+    "name": "VSDC AIP",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF42",
+    "name": "UDKac",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF43",
+    "name": "UDKmac",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF44",
+    "name": "UDKenc",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF47",
+    "name": "UDKcvc",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF48",
+    "name": "UDKac KCV",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF49",
+    "name": "UDKmac KCV",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF4A",
+    "name": "UDKenc KCV",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF4B",
+    "name": "UDKcvc KCV",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF4B",
+    "name": "POS Cardholder Interaction Information",
+    "type": "b",
+    "length": "3"
+  },
+  {
+    "tag": "DF51",
+    "name": "Grand Parent AC",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF52",
+    "name": "Parent AC",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF53",
+    "name": "Grand Parent MAC",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF54",
+    "name": "Parent MAC",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF55",
+    "name": "Grand Parent ENC",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF56",
+    "name": "Parent ENC/Terminal Action Code - Default",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF57",
+    "name": "Terminal Action Code - Decline",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF60",
+    "name": "DS Input (Card)",
+    "type": "b",
+    "length": "8"
+  },
+  {
+    "tag": "DF60",
+    "name": "DDA Component P",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF61",
+    "name": "DDA Component Q",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF61",
+    "name": "DS Digest H",
+    "type": "b",
+    "length": "8"
+  },
+  {
+    "tag": "DF62",
+    "name": "DS ODS Info",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "DF62",
+    "name": "DDA Component D1",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF63",
+    "name": "DDA Component D2",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF63",
+    "name": "DS ODS Term",
+    "type": "b",
+    "length": "160"
+  },
+  {
+    "tag": "DF64",
+    "name": "DDA Component Q Minus 1 Mod P",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF65",
+    "name": "DDA Private Exponent",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF6B",
+    "name": "Paypass Contactless",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF79",
+    "name": "Dynamic Data Authentication Keys",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "DF8101",
+    "name": "DS Summary 2",
+    "type": "b",
+    "length": "16"
+  },
+  {
+    "tag": "DF8102",
+    "name": "DS Summary 3",
+    "type": "b",
+    "length": "16"
+  },
+  {
+    "tag": "DF8104",
+    "name": "Balance Read Before Gen AC",
+    "type": "n",
+    "length": "6"
+  },
+  {
+    "tag": "DF8105",
+    "name": "Balance Read After Gen AC",
+    "type": "n",
+    "length": "6"
+  },
+  {
+    "tag": "DF8106",
+    "name": "Data Needed",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "DF8107",
+    "name": "CDOL1 Related Data",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "DF8108",
+    "name": "DS AC Type",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "DF8109",
+    "name": "DS Input (Term)",
+    "type": "b",
+    "length": "8"
+  },
+  {
+    "tag": "DF810A",
+    "name": "DS ODS Info For Reader",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "DF810B",
+    "name": "DS Summary Status",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "DF810C",
+    "name": "Kernel ID",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "DF810D",
+    "name": "DSVN Term",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "DF810E",
+    "name": "Post-Gen AC Put Data Status",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "DF810F",
+    "name": "Pre-Gen AC Put Data Status",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "DF8110",
+    "name": "Proceed To First Write Flag",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "DF8111",
+    "name": "PDOL Related Data",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "DF8112",
+    "name": "Tags To Read",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "DF8113",
+    "name": "DRDOL Related Data",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "DF8114",
+    "name": "Reference Control Parameter",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "DF8115",
+    "name": "Error Indication",
+    "type": "b",
+    "length": "6"
+  },
+  {
+    "tag": "DF8116",
+    "name": "User Interface Request Data",
+    "type": "b",
+    "length": "22"
+  },
+  {
+    "tag": "DF8117",
+    "name": "Card Data Input Capability",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "DF8118",
+    "name": "CVM Capability - CVM Required",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "DF8119",
+    "name": "CVM Capability - No CVM Required",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "DF811A",
+    "name": "Default UDOL",
+    "type": "b",
+    "length": "3"
+  },
+  {
+    "tag": "DF811B",
+    "name": "Kernel Configuration",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "DF811C",
+    "name": "Max Lifetime of Torn Transaction Log Record",
+    "type": "b",
+    "length": "2"
+  },
+  {
+    "tag": "DF811D",
+    "name": "Max Number of Torn Transaction Log Records",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "DF811E",
+    "name": "Mag-stripe CVM Capability - CVM Required",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "DF811F",
+    "name": "Security Capability",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "DF8120",
+    "name": "Terminal Action Code - Default",
+    "type": "b",
+    "length": "5"
+  },
+  {
+    "tag": "DF8121",
+    "name": "Terminal Action Code - Denial",
+    "type": "b",
+    "length": "5"
+  },
+  {
+    "tag": "DF8122",
+    "name": "Terminal Action Code - Online",
+    "type": "b",
+    "length": "5"
+  },
+  {
+    "tag": "DF8123",
+    "name": "Reader Contactless Floor Limit",
+    "type": "n",
+    "length": "6"
+  },
+  {
+    "tag": "DF8124",
+    "name": "Reader Contactless Transaction Limit (No On-device CVM)",
+    "type": "n",
+    "length": "6"
+  },
+  {
+    "tag": "DF8125",
+    "name": "Reader Contactless Transaction Limit (On-device CVM)",
+    "type": "n",
+    "length": "6"
+  },
+  {
+    "tag": "DF8126",
+    "name": "Reader CVM Required Limit",
+    "type": "n",
+    "length": "6"
+  },
+  {
+    "tag": "DF8127",
+    "name": "Time Out Value",
+    "type": "b",
+    "length": "2"
+  },
+  {
+    "tag": "DF8128",
+    "name": "IDS Status",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "DF8129",
+    "name": "Outcome Parameter Set",
+    "type": "b",
+    "length": "8"
+  },
+  {
+    "tag": "DF812A",
+    "name": "DD Card (Track1)",
+    "type": "ans",
+    "length": "56"
+  },
+  {
+    "tag": "DF812B",
+    "name": "DD Card (Track2)",
+    "type": "cn",
+    "length": "8"
+  },
+  {
+    "tag": "DF812C",
+    "name": "Mag-stripe CVM Capability - No CVM Required",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "DF812D",
+    "name": "Message Hold Time",
+    "type": "n",
+    "length": "3"
+  },
+  {
+    "tag": "DF8130",
+    "name": "Hold Time Value",
+    "type": "b",
+    "length": "1"
+  },
+  {
+    "tag": "DF8131",
+    "name": "Phone Message Table",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "FF60",
+    "name": "Visa International",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "FF62",
+    "name": "Visa Magnetic Stripe",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "FF63",
+    "name": "Visa Quick VSDC",
+    "type": "H",
+    "length": ""
+  },
+  {
+    "tag": "FF8101",
+    "name": "Torn Record",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "FF8102",
+    "name": "Tags To Write Before Gen AC",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "FF8103",
+    "name": "Tags To Write After Gen AC",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "FF8104",
+    "name": "Data To Send",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "FF8105",
+    "name": "Data Record",
+    "type": "b",
+    "length": "var."
+  },
+  {
+    "tag": "FF8106",
+    "name": "Discretionary Data",
+    "type": "b",
+    "length": "var."
+  }
+]
